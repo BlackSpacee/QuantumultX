@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402011446
+## ! Version: 202402021447
 ## ! Title: EasyPrivacy
-## ! Last modified: 01 Feb 2024 14:46 UTC
+## ! Last modified: 02 Feb 2024 14:47 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -2321,6 +2321,7 @@ DOMAIN-SUFFIX,analytics-scripts.cablelabs.com,REJECT
 DOMAIN-SUFFIX,analytics-sg.tiktok.com,REJECT
 DOMAIN-SUFFIX,analytics-static.ugc.bazaarvoice.com,REJECT
 DOMAIN-SUFFIX,analytics.30m.com,REJECT
+DOMAIN-SUFFIX,analytics.adobe.io,REJECT
 DOMAIN-SUFFIX,analytics.agoda.com,REJECT
 DOMAIN-SUFFIX,analytics.aimtell.com,REJECT
 DOMAIN-SUFFIX,analytics.algolia.com,REJECT
@@ -2613,6 +2614,7 @@ DOMAIN-SUFFIX,customfingerprints.bablosoft.com,REJECT
 DOMAIN-SUFFIX,cws.conviva.com,REJECT
 DOMAIN-SUFFIX,d.shareaholic.com,REJECT
 DOMAIN-SUFFIX,d1tbj6eaenapdy.cloudfront.net,REJECT
+DOMAIN-SUFFIX,d2pt12ct4kmq21.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d2wa5sea6guof0.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d3vebqdofhigrn.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dash.getsitecontrol.com,REJECT
@@ -3543,6 +3545,7 @@ DOMAIN-SUFFIX,vwonwkaqvq-a.global.ssl.fastly.net,REJECT
 DOMAIN-SUFFIX,siteintercept.allegiancetech.com,REJECT
 DOMAIN-SUFFIX,trusted-web-seal.cybertrust.ne.jp,REJECT
 DOMAIN-SUFFIX,advantage.digitalsunray.com,REJECT
+DOMAIN-SUFFIX,analytics.agenedia.com,REJECT
 DOMAIN-SUFFIX,analytics.audionow.de,REJECT
 DOMAIN-SUFFIX,analytics.gameforge.de,REJECT
 DOMAIN-SUFFIX,analytics.idfnet.net,REJECT
@@ -4008,6 +4011,7 @@ DOMAIN-SUFFIX,analytics.lasegunda.ecn.cl,REJECT
 DOMAIN-SUFFIX,analytics.neoogilvy.uy,REJECT
 DOMAIN-SUFFIX,bpt.webedia-group.com,REJECT
 DOMAIN-SUFFIX,collector-videoplayer.5centscdn.net,REJECT
+DOMAIN-SUFFIX,contador.biobiochile.cl,REJECT
 DOMAIN-SUFFIX,contadores.miarroba.com,REJECT
 DOMAIN-SUFFIX,contadores.miarroba.es,REJECT
 DOMAIN-SUFFIX,creatives.sunmedia.tv,REJECT
@@ -4276,6 +4280,7 @@ DOMAIN-SUFFIX,geoip.boredpanda.com,REJECT
 DOMAIN-SUFFIX,geoip.hmageo.com,REJECT
 DOMAIN-SUFFIX,geoip.ifunny.co,REJECT
 DOMAIN-SUFFIX,geolocation.forbes.com,REJECT
+DOMAIN-SUFFIX,gg.vevor.com,REJECT
 DOMAIN-SUFFIX,glassmoni.researchgate.net,REJECT
 DOMAIN-SUFFIX,gmetrics.getbeamer.com,REJECT
 DOMAIN-SUFFIX,gnar.grammarly.com,REJECT
@@ -4442,6 +4447,7 @@ DOMAIN-SUFFIX,rum.api.intuit.com,REJECT
 DOMAIN-SUFFIX,rum.condenastdigital.com,REJECT
 DOMAIN-SUFFIX,rum.kobo.com,REJECT
 DOMAIN-SUFFIX,rvo-cohesion.healthline.com,REJECT
+DOMAIN-SUFFIX,s.gofile.io,REJECT
 DOMAIN-SUFFIX,s.infogram.com,REJECT
 DOMAIN-SUFFIX,s.wayfair.com,REJECT
 DOMAIN-SUFFIX,saa.insideedition.com,REJECT
@@ -4616,6 +4622,7 @@ DOMAIN-SUFFIX,cfa.fidelity.com,REJECT
 DOMAIN-SUFFIX,clear.wallapop.com,REJECT
 DOMAIN-SUFFIX,content22.bmo.com,REJECT
 DOMAIN-SUFFIX,content22.citibank.com.au,REJECT
+DOMAIN-SUFFIX,content22.citibankonline.com,REJECT
 DOMAIN-SUFFIX,content22.online.citi.com,REJECT
 DOMAIN-SUFFIX,drfdisvc.walmart.com,REJECT
 DOMAIN-SUFFIX,event.evtm.53.com,REJECT
@@ -32378,6 +32385,7 @@ DOMAIN-SUFFIX,hits.antena3.com,REJECT
 DOMAIN-SUFFIX,horizon-track.globo.com,REJECT
 DOMAIN-SUFFIX,pixel.europapress.net,REJECT
 DOMAIN-SUFFIX,px-intl.ucweb.com,REJECT
+DOMAIN-SUFFIX,realtime.bbcl.cl,REJECT
 DOMAIN-SUFFIX,rvv.emol.com,REJECT
 DOMAIN-SUFFIX,statsmp2.emol.com,REJECT
 DOMAIN-SUFFIX,t-pan.triodos.com,REJECT
