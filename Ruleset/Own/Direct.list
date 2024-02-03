@@ -1,42 +1,41 @@
 # Unbreak
 # > General
-HOST,app.adjust.com,DIRECT
-HOST,app.appsflyer.com,DIRECT
-HOST,bdtj.tagtic.cn,DIRECT
+host,app.adjust.com, direct
+host,app.appsflyer.com, direct
+host,bdtj.tagtic.cn, direct
 # > Alibaba
-HOST,log.mmstat.com,DIRECT
-HOST,sycm.mmstat.com,DIRECT
+host,log.mmstat.com, direct
+host,sycm.mmstat.com, direct
 # > Google
-HOST-SUFFIX,blog.google // Google Blog
-HOST-SUFFIX,googletraveladservices.com // Google Flights
-HOST,clientservices.googleapis.com,DIRECT
-HOST,update.googleapis.com,DIRECT
-HOST,dl.google.com,DIRECT
-HOST,dl.l.google.com,DIRECT
-HOST,update.googleapis.com,DIRECT
+host-SUFFIX,blog.google // Google Blog
+host-SUFFIX,googletraveladservices.com // Google Flights
+host,clientservices.googleapis.com, direct
+host,update.googleapis.com, direct
+host,dl.google.com, direct
+host,dl.l.google.com, direct
 # >> Firebase Cloud Messaging
-HOST,mtalk.google.com,DIRECT
-HOST,alt1-mtalk.google.com,DIRECT
-HOST,alt2-mtalk.google.com,DIRECT
-HOST,alt3-mtalk.google.com,DIRECT
-HOST,alt4-mtalk.google.com,DIRECT
-HOST,alt5-mtalk.google.com,DIRECT
-HOST,alt6-mtalk.google.com,DIRECT
-HOST,alt7-mtalk.google.com,DIRECT
-HOST,alt8-mtalk.google.com,DIRECT
+host,mtalk.google.com, direct
+host,alt1-mtalk.google.com, direct
+host,alt2-mtalk.google.com, direct
+host,alt3-mtalk.google.com, direct
+host,alt4-mtalk.google.com, direct
+host,alt5-mtalk.google.com, direct
+host,alt6-mtalk.google.com, direct
+host,alt7-mtalk.google.com, direct
+host,alt8-mtalk.google.com, direct
 # >> Paramount+
-# HOST,pubads.g.doubleclick.net
+# host,pubads.g.doubleclick.net
 # > Tencent
-HOST,fairplay.l.qq.com,DIRECT
-HOST,livew.l.qq.com,DIRECT
-HOST,vd.l.qq.com,DIRECT
-HOST,vi.l.qq.com,DIRECT
+host,fairplay.l.qq.com, direct
+host,livew.l.qq.com, direct
+host,vd.l.qq.com, direct
+host,vi.l.qq.com, direct
 # > Strava
-HOST,analytics.strava.com,DIRECT
+host,analytics.strava.com, direct
 # > Umeng
-HOST,msg.umeng.com,DIRECT
-HOST,msg.umengcloud.com,DIRECT
-#############
+host,msg.umeng.com, direct
+host,msg.umengcloud.com, direct
+  
 #!name=分流修正
 #!desc=修正某些被分流到外区的国内网站
 #!author=fmz200
@@ -52,24 +51,12 @@ HOST,msg.umengcloud.com,DIRECT
 # > "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
 # > "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
 # > "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
-#############################################
-
-
 
 # >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
 host, ad.12306.cn, direct
-
-
-
-
 # >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
 # > anti-ad
 host-keyword, anti-ad.net, direct
-
-# > Alibaba
-host,log.mmstat.com, direct
-host,sycm.mmstat.com, direct
-
 # > 爱影视
 host,static.jssp.tv, direct
 host,lain.bgm.tv, direct
@@ -84,9 +71,6 @@ host-keyword,vip.lz-cdn, direct
 host-keyword,ax1x.com, direct
 host-keyword,o.lencr.org, direct
 host-keyword,ttcdn-tos.kkimg.cc, direct
-
-
-
 # >>>>>>>>>>>>>>> ✅ D ✅ <<<<<<<<<<<<<<
 # > 大师兄影视
 host,sdk.alibaba.com.ailbaba.me, direct
@@ -102,9 +86,6 @@ host-keyword,bfzycdn.com, direct
 host-keyword,vip.kuaikan-cdn, direct
 host-keyword,vip.ffzy-play, direct
 host-keyword,vip.ffzy-online, direct
-
-
-
 # >>>>>>>>>>>>>>> ✅ P ✅ <<<<<<<<<<<<<<
 # > 苹果推送服务
 host-keyword, push.apple.com, direct
@@ -135,43 +116,16 @@ host-keyword, gsa.apple.com, direct
 host-keyword, ess.apple.com, direct
 # > 苹果app store
 host, itunes.apple.com, direct
-
-
-
 # >>>>>>>>>>>>>>> ✅ Q ✅ <<<<<<<<<<<<<<
 # > QQ空间
 host-keyword, ctc.qzs.qzone.qq.com, direct
-
-
 # >>>>>>>>>>>>>>> ✅ S ✅ <<<<<<<<<<<<<<
-# > Strava
-host,analytics.strava.com, direct
-
-
-
 # >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
-# > Tencent
-host,fairplay.l.qq.com, direct
-host,livew.l.qq.com, direct
-host,vd.l.qq.com, direct
-host,vi.l.qq.com, direct
-
-
-
 # >>>>>>>>>>>>>>> ✅ U ✅ <<<<<<<<<<<<<<
-# > Umeng
-host,msg.umeng.com, direct
-host,msg.umengcloud.com, direct
-
-
-
 # >>>>>>>>>>>>>>> ✅ X ✅ <<<<<<<<<<<<<<
 # > 携程
 host-keyword, aw-s.tripcdn.com, direct
 host-keyword, trip.com, direct
-
-
-
 # > 其他分流修正
 # > 路由器后台
 ip-cidr, 192.168.0.1/24, direct

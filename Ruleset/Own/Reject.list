@@ -29,7 +29,6 @@ HOST-SUFFIX, iadsdk.apple.com, REJECT
 HOST, lookup.api.bsb.baidu.com, REJECT
 HOST-SUFFIX, u3.ucweb.com, REJECT
 HOST-KEYWORD, safebrowsing., REJECT
-
 # ======= B ======= #
 # 百度
 HOST, mobads.baidu.com, REJECT
@@ -40,7 +39,6 @@ HOST, afdconf.baidu.com, REJECT
 HOST, lc.map.baidu.com, REJECT
 # 百度贴吧
 IP-CIDR, 180.76.76.200/32, REJECT
-
 # ======= C ======= #
 # 彩云天气
 HOST, ad.cyapi.cn, REJECT
@@ -53,18 +51,15 @@ HOST, collector.clue.run, REJECT
 HOST, images.ctfassets.net, REJECT
 HOST, mapi.apptimize.com, REJECT
 HOST, md-i-s.apptimize.com, REJECT
-
 # ======= D ======= #
 # DNS 无响应
 HOST, adttrackingprd.hwwt8.com, REJECT
-
 # ======= F ======= #
 # Foreca & Google
 HOST, pagead2.googlesyndication.com, REJECT
 HOST, www.googleadservices.com, REJECT
 HOST-KEYWORD, adservice.google.com, REJECT
 HOST-KEYWORD, ads.g.doubleclick, REJECT
-
 # ======= G ======= #
 # 高德地图
 HOST, amap-aos-info-nogw.amap.com, REJECT
@@ -84,7 +79,6 @@ HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
 HOST-KEYWORD, pangolin.snssdk.com, REJECT
 HOST-KEYWORD, pglstatp-toutiao, REJECT
 HOST-KEYWORD, video-cn.snssdk.com, REJECT
-
 # ======= H ======= #
 # 海尔智家
 HOST-SUFFIX, ehaier.com, REJECT
@@ -92,7 +86,6 @@ HOST-SUFFIX, ehaier.com, REJECT
 HOST, hdns.ksyun.com, REJECT
 HOST-KEYWORD, httpdns., REJECT
 HOST-KEYWORD, httpdns-, REJECT
-
 # ======= J ======= #
 # 建设银行
 HOST-KEYWORD, adv.ccb.com, REJECT
@@ -102,18 +95,15 @@ IP-CIDR, 101.124.19.122/32, REJECT
 IP6-CIDR, 2402:db40:5100:1011::5/128, REJECT
 # JavDB
 HOST, api.liquidlink.cn, REJECT
-
 # ======= K ======= #
 # 酷我音乐
 HOST, ad.tencentmusic.com, REJECT
 HOST, g.koowo.com, REJECT
 HOST, mobilead.kuwo.cn, REJECT
 HOST, rich.kuwo.cn, REJECT
-
 # ======= L ======= #
 # 蓝奏云
 HOST, statics.woozooo.com, REJECT
-
 # ======= M ======= #
 # 芒果TV
 HOST, credits.bz.mgtv.com, REJECT
@@ -139,13 +129,11 @@ HOST, route-stats.d.meituan.net, REJECT
 # 美颜相机
 HOST, aaid.uyunad.com, REJECT
 HOST, adui.tg.meitu.com, REJECT
-
 # ======= O ======= #
 # Outlook
 HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
-
 # ======= S ======= #
 # 什么值得买
 HOST, api.zuihuimai.com, REJECT
@@ -165,7 +153,6 @@ IP-CIDR, 121.196.197.147/32, REJECT
 HOST, ads.pubmatic.com, REJECT
 HOST, id.hadron.ad.gt, REJECT
 HOST-KEYWORD, -adsystem.com, REJECT
-
 # ======= T ======= #
 # 腾讯
 HOST, adsmind.gdtimg.com, REJECT
@@ -183,7 +170,6 @@ HOST-SUFFIX, l.qq.com, REJECT
 HOST-KEYWORD, trace.qq.com, REJECT
 HOST-KEYWORD, trace.video.qq.com, REJECT
 IP-CIDR, 47.110.187.87/32, REJECT
-
 # ======= W ======= #
 # 网易云音乐
 HOST, iadmat.nosdn.127.net, REJECT
@@ -196,7 +182,6 @@ HOST-SUFFIX, 163jiasu.com, REJECT
 # 微博 开屏广告
 HOST, huodong.weibo.cn, REJECT
 HOST-SUFFIX, biz.weibo.com, REJECT
-
 # ======= X ======= #
 # 小米
 HOST, sdkconfig.ad.xiaomi.com, REJECT
@@ -204,7 +189,6 @@ HOST, sdkconfig.ad.xiaomi.com, REJECT
 ;HOST, hub5btmain.v6.shub.sandai.net, REJECT
 ;HOST, hub5emu.v6.shub.sandai.net, REJECT
 ;HOST, hub5idx.v6.shub.sandai.net, REJECT
-
 # ======= Y ======= #
 # 优酷 & 菜鸟
 ;HOST, acs.youku.com, REJECT
@@ -233,7 +217,6 @@ HOST, switch.cup.com.cn, REJECT
 HOST, tysdk.95516.com, REJECT
 # Yandex
 HOST, yandexmetrica.com, REJECT
-
 # ======= Z ======= #
 # 知乎
 HOST, appcloud.zhihu.com, REJECT
@@ -245,11 +228,10 @@ HOST, zxid-m.mobileservice.cn, REJECT
 IP-CIDR, 103.41.167.237/32, REJECT
 IP-CIDR, 118.89.204.198/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
-#############
+##########################
 # Advertising
 # > General
 HOST-KEYWORD,adservice,REJECT
-
 HOST-SUFFIX,1phads.com,REJECT
 HOST-SUFFIX,1rtb.com,REJECT
 HOST-SUFFIX,1xl.co.uk,REJECT
@@ -756,20 +738,17 @@ HOST-SUFFIX,zumobi.com,REJECT
 HOST-SUFFIX,zwaar.org,REJECT
 HOST-SUFFIX,zxrtb.com,REJECT
 HOST-SUFFIX,mediav.com,REJECT
-
 HOST-SUFFIX,8le8le.com,REJECT
 HOST-SUFFIX,jomwihn.cn,REJECT
 HOST-SUFFIX,wuyicom.top,REJECT
 HOST-SUFFIX,anythinktech.com,REJECT
 HOST-SUFFIX,520click.com,REJECT
 HOST-SUFFIX,xlviirdr.com,REJECT
-HOST-SUFFIX,adtongji.xyz,REJECT
 HOST-SUFFIX,ce33m7.com,REJECT
 HOST-SUFFIX,pangle.io,REJECT
 HOST-SUFFIX,ad.daum.net,REJECT
 HOST-SUFFIX,ad.g.daum.net,REJECT
 HOST-SUFFIX,ads.roku.com,REJECT
-
 HOST,abema-adx.ameba.jp,REJECT
 HOST,ad.12306.cn,REJECT
 HOST,ad.caiyunapp.com,REJECT
@@ -824,14 +803,12 @@ HOST,saad.ms.zhangyue.net,REJECT
 HOST,toots-a.akamaihd.net,REJECT
 HOST,videoads-cloud.rovio.com,REJECT
 HOST,video-ads-module.ad-tech.nbcuni.com,REJECT
-
 # (0~9)
 # > 51wnl
 HOST,ad.51wnl-cq.com,REJECT
 HOST,adextra.51wnl-cq.com,REJECT
 HOST,log.51wnl-cq.com,REJECT
 HOST,r.51wnl-cq.com,REJECT
-
 # (A)
 # > Apple
 HOST-SUFFIX,iadsdk.apple.comX,REJECT
@@ -861,7 +838,6 @@ HOST,adm0.autoimg.cn,REJECT
 HOST,adm1.autoimg.cn,REJECT
 HOST,adm2.autoimg.cn,REJECT
 HOST,adm3.autoimg.cn,REJECT
-
 # (B)
 # --- (Baidu) ---
 HOST-SUFFIX,duapps.com,REJECT
@@ -881,7 +857,6 @@ IP-CIDR,101.227.97.240/32,no-resolve,REJECT
 IP-CIDR,101.227.200.11/32,no-resolve,REJECT
 IP-CIDR,101.227.200.28/32,no-resolve,REJECT
 IP-CIDR,124.192.153.42/32,no-resolve,REJECT
-# ------
 # > ByteDance
 HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 HOST-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
@@ -904,7 +879,6 @@ HOST-SUFFIX,iad-04.braze.com,REJECT
 HOST-SUFFIX,iad-05.braze.com,REJECT
 HOST-SUFFIX,iad-06.braze.com,REJECT
 HOST-SUFFIX,iad-08.braze.com,REJECT
-
 # (C)
 # > CCTVVideo
 HOST,adstore-index-1252524079.file.myqcloud.com,REJECT
@@ -925,11 +899,9 @@ HOST,logs.chelaile.net.cn,REJECT
 HOST,dispatcher.360in.com,REJECT
 HOST,ad.360in.com,REJECT
 HOST,exp.360in.com,REJECT
-
 # (D)
 # > Douban
 AND,((USER-AGENT,Frodo*), (HOST,119.29.29.29)),REJECT
-
 # (G)
 # > Google
 HOST-SUFFIX,doubleclick.net,REJECT
@@ -938,7 +910,6 @@ HOST-SUFFIX,googleadsserving.cn,REJECT
 HOST-SUFFIX,googlesyndication.com,REJECT
 HOST-SUFFIX,googletagservices.com,REJECT
 HOST,ads.youtube.com,REJECT
-
 # (H)
 # > HunanTV
 HOST-SUFFIX,da.mgtv.com,REJECT
@@ -957,7 +928,6 @@ HOST,adeng.hpplay.cn,REJECT
 HOST,pin.hpplay.cn,REJECT
 HOST,rp.hpplay.cn,REJECT
 HOST,rpt.hpplay.cn,REJECT
-
 # (J)
 # > jxedt
 HOST,richmanapi.jxedt.com,REJECT
@@ -966,7 +936,6 @@ HOST,richmanmain.jxedt.com,REJECT
 HOST,richmanrank.ksedt.com,REJECT
 HOST,richmanrules.jxedt.com,REJECT
 HOST,richmanrules.ksedt.com,REJECT
-
 # (K)
 # > Kingsoft
 HOST,ad-stat.ksosoft.com,REJECT
@@ -980,13 +949,11 @@ HOST,ws.ksmobile.net,REJECT
 # > Kuaishou
 HOST-SUFFIX,e.kuaishou.com,REJECT
 HOST,js-ad.a.yximgs.com,REJECT
-
 # (L)
 # > LinkWiFi
 HOST,a.wkanx.com,REJECT
 HOST,cwx.lianwangtech.com,REJECT
 HOST,c1wx.lianwangtech.com,REJECT
-
 # (M)
 # > Microsoft
 HOST-SUFFIX,ads.msn.com,REJECT
@@ -1008,7 +975,6 @@ HOST,ggmk.miguvideo.com,REJECT
 HOST,ggv.cmvideo.cn,REJECT
 HOST,ggx.cmvideo.cn,REJECT
 HOST,ggx03.miguvideo.com,REJECT
-
 # (N)
 # > NetEase
 HOST-SUFFIX,dsp.youdao.com,REJECT
@@ -1028,7 +994,6 @@ HOST,n.3g.163.com,REJECT
 HOST,nex.163.com,REJECT
 HOST,yt-adp.nosdn.127.net,REJECT
 HOST,yt-adp.ws.126.net,REJECT
-
 # (P)
 # > PPTV
 HOST,ads.aplus.pptv.com,REJECT
@@ -1052,7 +1017,6 @@ HOST,ivy.pchouse.com.cn,REJECT
 HOST-SUFFIX,deliver.ifeng.com,REJECT
 HOST,api.newad.ifeng.com,REJECT
 HOST,ifengad.3g.ifeng.com,REJECT
-
 # (Q)
 # > QingTing
 HOST,ad.qingting.fm,REJECT
@@ -1061,7 +1025,6 @@ HOST,ad-cdn.qingting.fm,REJECT
 # > OPPO
 HOST-SUFFIX,ads.oppomobile.com,REJECT
 HOST,adsfs.oppomobile.com,REJECT
-
 # (S)
 # > Sina
 HOST-SUFFIX,alitui.weibo.com,REJECT
@@ -1085,7 +1048,6 @@ HOST,adsapi.snapchat.com,REJECT
 HOST-SUFFIX,hoisin.coocaa.com,REJECT
 HOST-SUFFIX,hoisin.coocaatv.com,REJECT
 HOST,data-hoisin.coocaa.com,REJECT
-
 # (T)
 # --- (Tencent) ---
 HOST-SUFFIX,e.qq.com,REJECT
@@ -1118,7 +1080,6 @@ HOST,rich.kuwo.cn,REJECT
 HOST,tmead.y.qq.com,REJECT
 HOST,splashimgbssdl.yun.kugou.com,REJECT
 HOST,adsfilebssdlbig.tx.kugou.com,REJECT
-# ------
 # > TongHuaShun
 HOST,adm.10jqka.com.cn,REJECT
 HOST,stat.10jqka.com.cn,REJECT
@@ -1129,7 +1090,6 @@ HOST,imgadpai.thepaper.cn,REJECT
 # > Thunder
 HOST,adsp.xunlei.com,REJECT
 HOST,etl.xlmc.sandai.net,REJECT
-
 # (V)
 # > VariFlight
 HOST,adv-adlog.variflight.com,REJECT
@@ -1149,7 +1109,6 @@ HOST-KEYWORD,stsdk.vivoglobal.com,REJECT
 HOST,ads.viber.com,REJECT
 HOST,ads-d.viber.com,REJECT
 HOST,ads.aws.viber.com,REJECT
-
 # (X)
 # > Ximalaya
 HOST,ad.ximalaya.com,REJECT
@@ -1165,7 +1124,6 @@ HOST,ads-img-qc.xhscdn.com,REJECT
 HOST,ads-video-al.xhscdn.com,REJECT
 HOST,ads-video-qc.xhscdn.com,REJECT
 HOST,t-ads.xiaohongshu.com,REJECT
-
 # (Y)
 # > Yahoo
 HOST-SUFFIX,adserver.yahoo.com,REJECT
@@ -1177,7 +1135,6 @@ HOST,ads.auctions.yahoo.com,REJECT
 HOST,ads.finance.yahoo.com,REJECT
 HOST,ads.yahoo.com,REJECT
 HOST,ads.yahoo.de,REJECT
-
 # (Z)
 # > Zhihu
 USER-AGENT,AVOS*,REJECT
@@ -1190,7 +1147,6 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve,REJECT
 # > ZOL
 HOST,apppv.zol.com.cn,REJECT
 HOST,pvnapp.zol.com.cn,REJECT
-#############
 # Internet Service Providers Hijacking
 HOST-SUFFIX,17gouwuba.com,REJECT
 HOST-SUFFIX,186078.com,REJECT
@@ -1290,7 +1246,6 @@ HOST-SUFFIX,tt114.net,REJECT
 HOST-SUFFIX,tt3sm4.cn,REJECT
 HOST-SUFFIX,tuia.cn,REJECT
 HOST-SUFFIX,tuipenguin.com,REJECT
-HOST-SUFFIX,tuitiger.com,REJECT
 HOST-SUFFIX,urlaw.cn,REJECT
 HOST-SUFFIX,urlet.cn,REJECT
 HOST-SUFFIX,websd8.com,REJECT
@@ -1313,7 +1268,6 @@ IP-CIDR,39.107.15.115/32,no-resolve,REJECT
 IP-CIDR,47.89.59.182/32,no-resolve,REJECT
 IP-CIDR,103.49.209.27/32,no-resolve,REJECT
 IP-CIDR,123.56.152.96/32,no-resolve,REJECT
-# > ChinaTelecom
 IP-CIDR,61.160.200.223/32,no-resolve,REJECT
 IP-CIDR,61.160.200.242/32,no-resolve,REJECT
 IP-CIDR,61.160.200.252/32,no-resolve,REJECT
@@ -1356,7 +1310,6 @@ IP-CIDR,211.161.101.106/32,no-resolve,REJECT
 IP-CIDR,211.161.101.110/32,no-resolve,REJECT
 IP-CIDR,220.115.251.25/32,no-resolve,REJECT
 IP-CIDR,222.73.156.235/32,no-resolve,REJECT
-
 # Malware
 # > Huawei AspiegelBot
 IP-CIDR,114.119.160.0/21,no-resolve,REJECT
@@ -1437,7 +1390,7 @@ HOST-SUFFIX,yihuifu.cn,REJECT
 HOST-SUFFIX,yuanchengxiezuo.com,REJECT
 HOST-SUFFIX,zbrushcn.com,REJECT
 HOST-SUFFIX,zhzzx.com,REJECT
-#############
+  
 # Privacy
 HOST-SUFFIX,adjust.com,REJECT
 HOST-SUFFIX,airpr.com,REJECT
@@ -1458,7 +1411,6 @@ HOST-SUFFIX,parrable.com,REJECT
 HOST-SUFFIX,petametrics.com,REJECT
 HOST-SUFFIX,predic.io,REJECT
 HOST-SUFFIX,quantcount.com,REJECT
-HOST-SUFFIX,quantserve.com,REJECT
 HOST-SUFFIX,rtbasia.com,REJECT
 HOST-SUFFIX,scorecardresearch.com,REJECT
 HOST-SUFFIX,seewhy.com,REJECT
@@ -1469,7 +1421,6 @@ HOST-SUFFIX,sentiance.com,REJECT
 HOST-SUFFIX,serverbid.com,REJECT
 HOST-SUFFIX,sessionm.com,REJECT
 HOST-SUFFIX,smartlook.com,REJECT
-HOST-SUFFIX,socdm.com,REJECT
 HOST-SUFFIX,socialannex.com,REJECT
 HOST-SUFFIX,socialbakers.com,REJECT
 HOST-SUFFIX,sociaplus.com,REJECT
@@ -1487,11 +1438,9 @@ HOST-SUFFIX,woopra.com,REJECT
 HOST-SUFFIX,wootric.com,REJECT
 HOST-SUFFIX,wowanalytics.co.uk,REJECT
 HOST-SUFFIX,zoomanalytics.co,REJECT
-
 HOST-SUFFIX,ads.linkedin.com,REJECT
 HOST,analytics.slashdotmedia.com,REJECT
 HOST,zgsdk.zhugeio.com,REJECT
-
 # > 51.LA
 HOST,js.users.51.la,REJECT
 HOST,mc.51.la,REJECT
@@ -1503,7 +1452,6 @@ HOST,tracklog.58.com,REJECT
 # > Antiy
 HOST,miav-cse.avlyun.com,REJECT
 HOST,miui-fxcse.avlyun.com,REJECT
-# > Apple
 HOST,token.safebrowsing.apple,REJECT
 # > Baidu
 HOST,hm.baidu.com,REJECT
@@ -1511,7 +1459,6 @@ HOST,hmma.baidu.com,REJECT
 # > Daum
 HOST,track.tiara.daum.net,REJECT
 HOST,track.tiara.kakao.com,REJECT
-# > Google
 HOST-SUFFIX,googletagmanager.com,REJECT
 HOST-SUFFIX,google-analytics.com,REJECT
 HOST,safebrowsing.googleapis.com,REJECT
@@ -1523,7 +1470,6 @@ HOST-SUFFIX,gzads.com,REJECT
 HOST-SUFFIX,gz-data.com,REJECT
 # > GrowingIO
 HOST-SUFFIX,giocdn.com,REJECT
-HOST-SUFFIX,growingio.com,REJECT
 # > MI
 HOST-SUFFIX,tracking.miui.com,REJECT
 # HOST,api.miwifi.com // 影响 Mi Wi-Fi(id859962702)，但建议注意 https://www.v2ex.com/t/746094
@@ -1532,7 +1478,6 @@ HOST,flash.sec.miui.com,REJECT
 HOST,tracking.intl.miui.com,REJECT
 HOST,a0.app.xiaomi.com,REJECT
 HOST,api.installer.xiaomi.com,REJECT
-# > Microsoft
 HOST,c.bing.com,REJECT
 HOST,c.clarity.ms,REJECT
 HOST,o.clarity.ms,REJECT
