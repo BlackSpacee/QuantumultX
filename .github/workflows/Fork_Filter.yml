@@ -1,0 +1,303 @@
+name: Fork Filter lists
+
+on:
+  workflow_dispatch: # 启用手动触发
+  schedule:
+    - cron: "0 19 * * *" # 每天凌晨3点执行一次
+
+jobs:
+  Fork-FLITER-list:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          repository: blackspacee/QuantumultX
+          path: QuantumultX-repo
+
+
+      - name: Download files to Ruleset
+        run: |
+          # Apple
+          curl -L -o QuantumultX-repo/Ruleset/ApplePush.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/ApplePushNotificationService.snippet"
+          curl -L -o QuantumultX-repo/Ruleset/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+
+          # OpenAI
+          
+          curl -L -o QuantumultX-repo/Ruleset/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/ChatGPT_Voice.snippet"
+          curl -L -o QuantumultX-repo/Ruleset/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/OpenAI.snippet"
+          
+          # 社交媒体
+          curl -L -o QuantumultX-repo/Ruleset/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Telegram.list"
+
+          # 微软
+          curl -L -o QuantumultX-repo/Ruleset/Copilot.list  "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+
+          # 流媒体
+          curl -L -o QuantumultX-repo/Ruleset/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Emby.list"
+
+          # Talkatone
+          curl -L -o QuantumultX-repo/Ruleset/Talkatone.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Talkatone.list"
+
+          # 国内规则
+          mkdir -p QuantumultX-repo/Ruleset/ChinaDomain
+          curl -L -o QuantumultX-repo/Ruleset/ChinaDomain/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+
+          # LAN
+          curl -L -o QuantumultX-repo/Ruleset/LAN "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Lan.list"
+
+          # 广告规则
+          mkdir -p QuantumultX-repo/Ruleset/Advertising
+          curl -L -o QuantumultX-repo/Ruleset/Advertising/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+          curl -L -o QuantumultX-repo/Ruleset/Advertising/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+          curl -L -o QuantumultX-repo/Ruleset/Advertising/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+          curl -L -o QuantumultX-repo/Ruleset/Advertising/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+          curl -L -o QuantumultX-repo/Ruleset/Advertising/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/QuantumultX/rule/Adblock4limbo.list"
+          curl -L -o QuantumultX-repo/Ruleset/Advertising/Ads_anti_AD.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-quanx.txt"
+          curl -L -o QuantumultX-repo/Ruleset/Advertising/Ads_AdRules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf"
+
+          # fmz200&wala
+          mkdir -p QuantumultX-repo/Ruleset/fmz200
+          curl -L -o QuantumultX-repo/Ruleset/fmz200/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+          curl -L -o QuantumultX-repo/Ruleset/fmz200/Ads_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+          curl -L -o QuantumultX-repo/Ruleset/fmz200/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+          
+          # 神机规则修正
+          curl -L -o QuantumultX-repo/Ruleset/Unbreak.list "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list"
+
+          mkdir -p QuantumultX-repo/Ruleset/ConnersHua
+          curl -L -o QuantumultX-repo/Ruleset/ConnersHua/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+          curl -L -o QuantumultX-repo/Ruleset/ConnersHua/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+          curl -L -o QuantumultX-repo/Ruleset/ConnersHua/Tracking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+
+      - name: Checkout ios_rule_script Repository
+        uses: actions/checkout@v4
+        with:
+          repository: blackmatrix7/ios_rule_script
+          path: tmp # 临时存放目录
+
+      - name: Copy Selected Folders
+        run: |
+          cp -r tmp/rule/QuantumultX/WeChat Ruleset/
+          cp -r tmp/rule/QuantumultX/BiliBili Ruleset/
+          cp -r tmp/rule/QuantumultX/Zhihu Ruleset/
+          cp -r tmp/rule/QuantumultX/Speedtest Ruleset/
+
+          cp -r tmp/rule/QuantumultX/Spotify Ruleset/
+          cp -r tmp/rule/QuantumultX/OpenAI Ruleset/
+          cp -r tmp/rule/QuantumultX/Telegram Ruleset/
+          cp -r tmp/rule/QuantumultX/TikTok Ruleset/
+          cp -r tmp/rule/QuantumultX/Netflix Ruleset/
+          cp -r tmp/rule/QuantumultX/PayPal Ruleset/
+          cp -r tmp/rule/QuantumultX/Cloudflare Ruleset/
+          cp -r tmp/rule/QuantumultX/Twitter Ruleset/
+          cp -r tmp/rule/QuantumultX/Instagram Ruleset/
+          cp -r tmp/rule/QuantumultX/Facebook Ruleset/
+
+          cp -r tmp/rule/QuantumultX/GitHub Ruleset/
+          cp -r tmp/rule/QuantumultX/OneDrive Ruleset/
+          cp -r tmp/rule/QuantumultX/Bing Ruleset/
+          cp -r tmp/rule/QuantumultX/Microsoft Ruleset/
+
+          cp -r tmp/rule/QuantumultX/YouTube Ruleset/
+          cp -r tmp/rule/QuantumultX/Google Ruleset/
+
+          cp -r tmp/rule/QuantumultX/Emby Ruleset/
+
+          cp -r tmp/rule/QuantumultX/AppleID Ruleset/
+          cp -r tmp/rule/QuantumultX/AppStore Ruleset/
+          cp -r tmp/rule/QuantumultX/AppleMusic Ruleset/
+          cp -r tmp/rule/QuantumultX/iCloud Ruleset/
+          cp -r tmp/rule/QuantumultX/TestFlight Ruleset/
+          cp -r tmp/rule/QuantumultX/AppleMail Ruleset/
+          cp -r tmp/rule/QuantumultX/Apple Ruleset/
+
+          cp -r tmp/rule/QuantumultX/GlobalMedia Ruleset/
+        shell: bash
+
+      - name: Move ios_rule_script content to QuantumultX-repo/Ruleset
+        run: |
+          rsync -a --exclude 'README.md' Ruleset/* QuantumultX-repo/Ruleset/
+        shell: bash
+
+
+
+      # 适配 AdGuard QuantumultX 规则
+      - name: Edit Ruleset/Advertising/AdGuardChinese.list
+        run: |
+          cd QuantumultX-repo/Ruleset/Advertising
+          for file in AdGuardChinese.list; do
+            if [ -f "$file" ]; then
+            # 将每一行的第一个.替换为 HOST-SUFFIX,
+            sed -i 's/^\./HOST-SUFFIX,/g' "$file"
+            # 在非注释后添加PROXY
+            awk '!/\/\/|#|,PROXY|,DIRECT|,REJECT|^ *$/ {print $0",PROXY"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+              echo "$file not found."
+            fi
+          done
+
+      # 适配 Ruleset文件夹下所有list 为QuantumultX 规则
+      - name: Edit Ruleset/
+        run: |
+          cd QuantumultX-repo/Ruleset/
+          for file in *.list; do
+              if [ "$file" != "OpenAI.list" ] && [ "$file" != "ChatGPT_Voice.list" ] && [ "$file" != "Unbreak.list" ] && [ "$file" != "WeChat.list" ] && [ "$file" != "ApplePush.list" ]; then
+              # if [ -f "$file" ]; then
+              # 修改，& ; 以及大小写
+              sed -i 's/, /,/g' "$file"
+              # 修改DOMAIN为HOST
+              sed -i -e 's/DOMAIN,/HOST,/g' -e 's/DOMAIN-/HOST-/g' "$file"
+              # 修改IP-CIDR6为IP6-CIDR
+              sed -i 's/IP-CIDR6,/IP6-CIDR,/g' "$file"
+              # 删除no-resolve
+              sed -i 's/,no-resolve//g' "$file"
+              # 删除extended-matching
+              sed -i 's/,extended-matching//g' "$file"
+              # 注释不支持的规则
+              sed -i -e '/\(OR\|AND\|NOT\|PROCESS-NAME\|URL-REGEX\),/ s/^/#/' "$file"
+              # 删除" //" 以及后面的所有字符
+              sed -i 's| \{1,\}//.*$||' "$file"
+              # 在非注释后添加PROXY
+              awk '!/\/\/|#|,PROXY|,DIRECT|,REJECT|^ *$/ {print $0",PROXY"; next} {print}' "$file" > tmpfile
+              mv tmpfile "$file"
+              # 删除带有# UPDATED:字样的行
+              awk '!/# UPDATED:/' "$file" > tmpfile
+              mv tmpfile "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+        # 适配 Advertsing文件夹下list QuantumultX 规则
+      - name: Edit Ruleset/Advertising
+        run: |
+          cd QuantumultX-repo/Ruleset/Advertising
+          for file in *.list; do
+            if [ "$file" != "Ads_limbopro.list" ] && [ "$file" != "Ads_AdRules.list" ] && [ "$file" != "Ads_anti_AD.list" ]; then
+              # 在非注释后添加PROXY
+              awk '!/\/\/|#|,PROXY|,DIRECT|,REJECT|^ *$/ {print $0",PROXY"; next} {print}' "$file" > tmpfile
+              mv tmpfile "$file"
+              # 修改PROXY为REJECT
+              sed -i 's/,PROXY/,REJECT/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+        #修改ConnersHua 适配 QuantumultX 规则
+      - name: Edit Ruleset/ConnersHua
+        run: |
+          cd QuantumultX-repo/Ruleset/ConnersHua
+            for file in *.list; do
+            if [ -f "$file" ]; then
+              # 修改DOMAIN为HOST
+              sed -i -e 's/DOMAIN,/HOST,/g' -e 's/DOMAIN-/HOST-/g' "$file"
+              # 在非注释后添加PROXY
+              awk '!/\/\/|#|,PROXY|,DIRECT|,REJECT|^ *$/ {print $0",PROXY"; next} {print}' "$file" > tmpfile
+              mv tmpfile "$file"
+              # 修改PROXY为REJECT
+              sed -i 's/,PROXY/,REJECT/g' "$file"
+          else
+              echo "$file not found."
+            fi
+          done
+
+        #修改ChinaDoman 适配 QuantumultX 规则
+      - name: Edit Ruleset/ChinaDomain/
+        run: |
+          cd QuantumultX-repo/Ruleset/ChinaDomain/
+            for file in *.list; do
+            if [ -f "$file" ]; then
+              # 修改DOMAIN为HOST
+              sed -i -e 's/DOMAIN,/HOST,/g' -e 's/DOMAIN-/HOST-/g' "$file"
+              # 在非注释后添加PROXY
+              awk '!/\/\/|#|,PROXY|,DIRECT|,REJECT|^ *$/ {print $0",PROXY"; next} {print}' "$file" > tmpfile
+              mv tmpfile "$file"
+              # 修改PROXY为DIRECT
+              sed -i 's/,PROXY/,DIRECT/g' "$file"
+          else
+              echo "$file not found."
+            fi
+          done
+
+      - name: Edit END
+        run: |
+          cd QuantumultX-repo/Ruleset
+            for file in Unbreak.list; do
+            if [ -f "$file" ]; then
+              # 修改DOMAIN为 host 方便去重
+              sed -i -e 's/DOMAIN,/host,/g' -e 's/DOMAIN-/host-/g' "$file"
+              # 在非注释后添加PROXY
+              awk '!/\/\/|#|,PROXY|,DIRECT|,REJECT|^ *$/ {print $0",PROXY"; next} {print}' "$file" > tmpfile
+              mv tmpfile "$file"
+              # 修改PROXY为, direct 方便去重
+              sed -i 's/,PROXY/, direct/g' "$file"
+          else
+              echo "$file not found."
+            fi
+          done
+          
+        # 追加规则
+      - name: Output Direct.list
+        run: |
+          mkdir -p QuantumultX-repo/Ruleset/Own/
+          touch QuantumultX-repo/Ruleset/Own/Direct.list
+
+          if [ -f "QuantumultX-repo/Ruleset/Own/Direct.list" ] ; then
+            # 清空 Direct.list 文件
+            > QuantumultX-repo/Ruleset/Own/Direct.list
+
+            cat QuantumultX-repo/Ruleset/Unbreak.list >> QuantumultX-repo/Ruleset/Own/Direct.list
+            echo "  " >> QuantumultX-repo/Ruleset/Own/Direct.list     # 添加两行空格
+            cat QuantumultX-repo/Ruleset/fmz200/Direct_fmz200.list >> QuantumultX-repo/Ruleset/Own/Direct.list
+          
+            # 使用awk进行去重, 保留注释行, 方便排查问题和反馈.
+            awk '!seen[$0]++' QuantumultX-repo/Ruleset/Own/Direct.list > tmpfile && mv tmpfile QuantumultX-repo/Ruleset/Own/Direct.list
+          else
+            echo "$file not found."
+          fi
+          
+      - name: output Reject.list
+        run: |
+          touch QuantumultX-repo/Ruleset/Own/Reject.list
+
+          if [ -f "QuantumultX-repo/Ruleset/Own/Reject.list" ] ; then
+              # 清空 Reject.list 文件
+              > QuantumultX-repo/Ruleset/Own/Reject.list
+
+            cat QuantumultX-repo/Ruleset/fmz200/Ads_RuCu6.list >> QuantumultX-repo/Ruleset/Own/Reject.list
+            echo "##########################" >> QuantumultX-repo/Ruleset/Own/Reject.list
+            cat QuantumultX-repo/Ruleset/ConnersHua/Ads_ConnersHua.list >> QuantumultX-repo/Ruleset/Own/Reject.list
+            echo "##########################" >> QuantumultX-repo/Ruleset/Own/Reject.list
+            cat QuantumultX-repo/Ruleset/ConnersHua/Hijacking_ConnersHua.list >> QuantumultX-repo/Ruleset/Own/Reject.list
+            echo "  " >> QuantumultX-repo/Ruleset/Own/Reject.list
+            cat QuantumultX-repo/Ruleset/ConnersHua/Tracking_ConnersHua.list >> QuantumultX-repo/Ruleset/Own/Reject.list
+            
+            # 使用awk进行去重, 保留注释行, 方便排查问题和反馈.
+            awk '!seen[$0]++' QuantumultX-repo/Ruleset/Own/Reject.list > tmpfile && mv tmpfile QuantumultX-repo/Ruleset/Own/Reject.list
+          else
+            echo "$file not found."
+          fi
+          
+      - name: Commit and Push Changes
+        run: |
+          cd QuantumultX-repo
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add Ruleset/
+            git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+            git push origin HEAD
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 1
