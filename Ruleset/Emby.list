@@ -1,6 +1,6 @@
 # 基于 https://github.com/MisakaFxxk/MisakaF_Subconverter/blob/main/Sub/Emby.list 修改
 #
-# 2024-01-15 21:40
+# 2024-02-04 16:03
 
 
 ##### A #####
@@ -32,7 +32,13 @@ HOST-SUFFIX,mius.uk,PROXY
 
 ##### F #####
 
+# Facmata
+HOST-SUFFIX,cinema.facmata.net,PROXY
+
 ##### G #####
+
+# Godetia
+HOST-SUFFIX,emby.ssltd.xyz,PROXY
 
 ##### H #####
 
