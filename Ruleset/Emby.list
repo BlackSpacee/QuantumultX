@@ -1,6 +1,6 @@
 # 基于 https://github.com/MisakaFxxk/MisakaF_Subconverter/blob/main/Sub/Emby.list 修改
 #
-# 2024-02-04 16:03
+# 2024-02-09 16:18
 
 
 ##### A #####
@@ -44,6 +44,13 @@ HOST-SUFFIX,emby.ssltd.xyz,PROXY
 
 # 花云
 HOST-SUFFIX,emby.flowercloud,PROXY
+
+# 黑猫影视EMBY
+HOST-SUFFIX,uuuoo.cc,PROXY
+HOST-SUFFIX,emby.bid,PROXY
+HOST-SUFFIX,emby.date,PROXY
+HOST-SUFFIX,emby.loan,PROXY
+HOST-SUFFIX,emby.trade,PROXY
 
 ##### I #####
 
