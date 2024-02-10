@@ -1,6 +1,6 @@
 # 基于 https://github.com/MisakaFxxk/MisakaF_Subconverter/blob/main/Sub/Emby.list 修改
 #
-# 2024-02-09 16:18
+# 2024-02-10 17:34
 
 
 ##### A #####
@@ -71,6 +71,9 @@ HOST-SUFFIX,cf1.jmsooo.com,PROXY
 # 剧狗
 HOST-SUFFIX,ju.dog,PROXY
 IP-CIDR,202.61.255.248/32,PROXY
+
+# 江湖
+HOST-SUFFIX,reddust.link,PROXY
 
 ##### K #####
 
