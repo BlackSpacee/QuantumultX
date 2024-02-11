@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402101530
+## ! Version: 202402111454
 ## ! Title: EasyPrivacy
-## ! Last modified: 10 Feb 2024 15:30 UTC
+## ! Last modified: 11 Feb 2024 14:54 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -539,7 +539,6 @@ DOMAIN-SUFFIX,averageactivity.com,REJECT
 DOMAIN-SUFFIX,averageamusement.com,REJECT
 DOMAIN-SUFFIX,awakebird.com,REJECT
 DOMAIN-SUFFIX,awarealley.com,REJECT
-DOMAIN-SUFFIX,awesomeagreement.com,REJECT
 DOMAIN-SUFFIX,awzbijw.com,REJECT
 DOMAIN-SUFFIX,axiomaticalley.com,REJECT
 DOMAIN-SUFFIX,axiomaticanger.com,REJECT
@@ -1205,7 +1204,6 @@ DOMAIN-SUFFIX,hoplaugh.com,REJECT
 DOMAIN-SUFFIX,hosenews.com,REJECT
 DOMAIN-SUFFIX,hospitablehall.com,REJECT
 DOMAIN-SUFFIX,hospitablehat.com,REJECT
-DOMAIN-SUFFIX,hothydrant.com,REJECT
 DOMAIN-SUFFIX,humdrumhat.com,REJECT
 DOMAIN-SUFFIX,humdrumhobbies.com,REJECT
 DOMAIN-SUFFIX,humdrumtouch.com,REJECT
@@ -2284,7 +2282,6 @@ DOMAIN-SUFFIX,amp-error-reporting.appspot.com,REJECT
 DOMAIN-SUFFIX,amplifypixel.outbrain.com,REJECT
 DOMAIN-SUFFIX,ams-pageview-public.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,analyse.bcovery.com,REJECT
-DOMAIN-SUFFIX,analyse.lnearn.com,REJECT
 DOMAIN-SUFFIX,analytic.rollout.io,REJECT
 DOMAIN-SUFFIX,analyticcdn.globalmailer.com,REJECT
 DOMAIN-SUFFIX,analytics-1.cavai.com,REJECT
@@ -2510,6 +2507,7 @@ DOMAIN-SUFFIX,cod.bitrec.com,REJECT
 DOMAIN-SUFFIX,collect-ap2.attraqt.io,REJECT
 DOMAIN-SUFFIX,collect-eu.attraqt.io,REJECT
 DOMAIN-SUFFIX,collect.alphastream.io,REJECT
+DOMAIN-SUFFIX,collect.analyse.lnearn.com,REJECT
 DOMAIN-SUFFIX,collect.bannercrowd.net,REJECT
 DOMAIN-SUFFIX,collect.cloudsponge.com,REJECT
 DOMAIN-SUFFIX,collect.igodigital.com,REJECT
@@ -2704,7 +2702,6 @@ DOMAIN-SUFFIX,geo.ertya.com,REJECT
 DOMAIN-SUFFIX,geo.gorillanation.com,REJECT
 DOMAIN-SUFFIX,geo.mezr.com,REJECT
 DOMAIN-SUFFIX,geo.ngtv.io,REJECT
-DOMAIN-SUFFIX,geo.q5media.net,REJECT
 DOMAIN-SUFFIX,geo.thehindu.com,REJECT
 DOMAIN-SUFFIX,geobar.ziffdavisinternational.com,REJECT
 DOMAIN-SUFFIX,geoip.apps.avada.io,REJECT
@@ -3368,7 +3365,6 @@ DOMAIN-SUFFIX,d18p8z0ptb8qab.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d191y0yd6d0jy4.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d196fri2z18sm.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d1af033869koo7.cloudfront.net,REJECT
-DOMAIN-SUFFIX,d1clfvuu2240eh.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d1cr9zxt7u0sgu.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d1f0tbk1v3e25u.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d1gp8joe0evc8s.cloudfront.net,REJECT
@@ -3500,7 +3496,6 @@ DOMAIN-SUFFIX,artemis-cdn.ocdn.eu,REJECT
 DOMAIN-SUFFIX,beagle.prod.tda.link,REJECT
 DOMAIN-SUFFIX,blacktri-a.akamaihd.net,REJECT
 DOMAIN-SUFFIX,cgicounter.onlinehome.de,REJECT
-DOMAIN-SUFFIX,collector.ozeex.com,REJECT
 DOMAIN-SUFFIX,com.econa.com,REJECT
 DOMAIN-SUFFIX,counter.1i.kz,REJECT
 DOMAIN-SUFFIX,counter.blogoscoop.net,REJECT
@@ -4193,7 +4188,6 @@ DOMAIN-SUFFIX,fbo-statistics-collector-tc.is.flippingbook.com,REJECT
 DOMAIN-SUFFIX,fdt.kraken.com,REJECT
 DOMAIN-SUFFIX,femetrics.grammarly.io,REJECT
 DOMAIN-SUFFIX,firebaselogging.googleapis.com,REJECT
-DOMAIN-SUFFIX,fp.heavybit.com,REJECT
 DOMAIN-SUFFIX,fp.measure.office.com,REJECT
 DOMAIN-SUFFIX,fpa-cdn.adweek.com,REJECT
 DOMAIN-SUFFIX,fpa-cdn.arstechnica.com,REJECT
@@ -4407,7 +4401,6 @@ DOMAIN-SUFFIX,stat.pubhtml5.com,REJECT
 DOMAIN-SUFFIX,stat.tildacdn.com,REJECT
 DOMAIN-SUFFIX,stat.turb.pw,REJECT
 DOMAIN-SUFFIX,stat.vulkanvegas.com,REJECT
-DOMAIN-SUFFIX,stategg.cdngeek.com,REJECT
 DOMAIN-SUFFIX,statistics.streamdav.com,REJECT
 DOMAIN-SUFFIX,stats.aerotime.aero,REJECT
 DOMAIN-SUFFIX,stats.calcalist.co.il,REJECT
@@ -4530,7 +4523,6 @@ DOMAIN-SUFFIX,usmetric.rediff.com,REJECT
 DOMAIN-SUFFIX,v.adblockultimate.net,REJECT
 DOMAIN-SUFFIX,v.ctrl.blog,REJECT
 DOMAIN-SUFFIX,views.arabnews.com,REJECT
-DOMAIN-SUFFIX,views.asura.gg,REJECT
 DOMAIN-SUFFIX,views.asurascans.com,REJECT
 DOMAIN-SUFFIX,vortex.hulu.com,REJECT
 DOMAIN-SUFFIX,w3-reporting.reddit.com,REJECT
@@ -4688,7 +4680,6 @@ DOMAIN-SUFFIX,gl5g98t0vfjb.panprices.com,REJECT
 DOMAIN-SUFFIX,gvmomuqjv1.swyftx.com,REJECT
 DOMAIN-SUFFIX,hht8m6w8mnug.quine.sh,REJECT
 DOMAIN-SUFFIX,ilkk97e98lvg.www.sidsplumbing.ie,REJECT
-DOMAIN-SUFFIX,ipz51x.kvest.ee,REJECT
 DOMAIN-SUFFIX,ivrnfvlcgubm.www.cefirates.com,REJECT
 DOMAIN-SUFFIX,iwl2d7pa4yx1.www.logology.co,REJECT
 DOMAIN-SUFFIX,ixa9ill0f7bg.grundbuch.zentraler-antragsservice.com,REJECT
@@ -38608,7 +38599,6 @@ DOMAIN-SUFFIX,ss.photospecialist.at,REJECT
 DOMAIN-SUFFIX,ss.photospecialist.de,REJECT
 DOMAIN-SUFFIX,statistic2.reichelt.de,REJECT
 DOMAIN-SUFFIX,statistics.riskommunal.net,REJECT
-DOMAIN-SUFFIX,statistik.mitmischen.de,REJECT
 DOMAIN-SUFFIX,stats.autoscout24.ch,REJECT
 DOMAIN-SUFFIX,stats.rocketbeans.tv,REJECT
 DOMAIN-SUFFIX,stats.sumikai.com,REJECT
@@ -38682,7 +38672,6 @@ DOMAIN-SUFFIX,cdtm.cdiscount.com,REJECT
 DOMAIN-SUFFIX,compteur.developpez.com,REJECT
 DOMAIN-SUFFIX,dd.leboncoin.fr,REJECT
 DOMAIN-SUFFIX,e.legalstart.fr,REJECT
-DOMAIN-SUFFIX,eum2.caisse-epargne.fr,REJECT
 DOMAIN-SUFFIX,events-logs.doctolib.com,REJECT
 DOMAIN-SUFFIX,flow.kiloutou.fr,REJECT
 DOMAIN-SUFFIX,fsm.lapresse.ca,REJECT
@@ -38721,7 +38710,6 @@ DOMAIN-SUFFIX,adstats.tencentmusic.com,REJECT
 DOMAIN-SUFFIX,al.autohome.com.cn,REJECT
 DOMAIN-SUFFIX,ams.lelong.com.my,REJECT
 DOMAIN-SUFFIX,analytics-gw.games.wanmei.com,REJECT
-DOMAIN-SUFFIX,analytics.126.net,REJECT
 DOMAIN-SUFFIX,analytics.163.com,REJECT
 DOMAIN-SUFFIX,analytics.cnblogs.com,REJECT
 DOMAIN-SUFFIX,analytics.oceanengine.com,REJECT
@@ -38756,13 +38744,13 @@ DOMAIN-SUFFIX,ftwo-receiver.autohome.com.cn,REJECT
 DOMAIN-SUFFIX,gentian-frd.hjapi.com,REJECT
 DOMAIN-SUFFIX,gia.jd.com,REJECT
 DOMAIN-SUFFIX,gk.sina.cn,REJECT
+DOMAIN-SUFFIX,h5.analytics.126.net,REJECT
 DOMAIN-SUFFIX,h5log.zongheng.com,REJECT
 DOMAIN-SUFFIX,huaxiang.eastmoney.com,REJECT
 DOMAIN-SUFFIX,idm.api.autohome.com.cn,REJECT
 DOMAIN-SUFFIX,imgstat.baidu.com,REJECT
 DOMAIN-SUFFIX,improving.wuzhuiso.com,REJECT
 DOMAIN-SUFFIX,jcmonitor.xcar.com.cn,REJECT
-DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,log.bitauto.com,REJECT
 DOMAIN-SUFFIX,log.flight.qunar.com,REJECT
 DOMAIN-SUFFIX,log.m.sm.cn,REJECT
@@ -38825,7 +38813,6 @@ DOMAIN-SUFFIX,track.sohu.com,REJECT
 DOMAIN-SUFFIX,track.tom.com,REJECT
 DOMAIN-SUFFIX,trackcommon.hujiang.com,REJECT
 DOMAIN-SUFFIX,tracker.ai.xiaomi.com,REJECT
-DOMAIN-SUFFIX,trackjay.cool3c.com,REJECT
 DOMAIN-SUFFIX,trail.53kf.com,REJECT
 DOMAIN-SUFFIX,uestat.video.qiyi.com,REJECT
 DOMAIN-SUFFIX,utrack.hexun.com,REJECT
@@ -38839,7 +38826,6 @@ DOMAIN-SUFFIX,zio.xcar.com.cn,REJECT
 DOMAIN-SUFFIX,zz.bdstatic.com,REJECT
 DOMAIN-SUFFIX,cc.dalten.cz,REJECT
 DOMAIN-SUFFIX,jslog.post.cz,REJECT
-DOMAIN-SUFFIX,report.novinky.cz,REJECT
 DOMAIN-SUFFIX,stat.super.cz,REJECT
 DOMAIN-SUFFIX,statistics.csob.cz,REJECT
 DOMAIN-SUFFIX,analytics.rambla.be,REJECT
@@ -38900,7 +38886,6 @@ DOMAIN-SUFFIX,data.segugio.it,REJECT
 DOMAIN-SUFFIX,execution-ci360.rai.it,REJECT
 DOMAIN-SUFFIX,insights.cdt.ch,REJECT
 DOMAIN-SUFFIX,ma.register.it,REJECT
-DOMAIN-SUFFIX,sa.sky.it,REJECT
 DOMAIN-SUFFIX,stats.splinder.com,REJECT
 DOMAIN-SUFFIX,stats.stylight.it,REJECT
 DOMAIN-SUFFIX,stats.suedtirolerjobs.it,REJECT
@@ -39080,7 +39065,6 @@ DOMAIN-SUFFIX,unm.emol.com,REJECT
 DOMAIN-SUFFIX,wssgmstats.vibbo.com,REJECT
 DOMAIN-SUFFIX,wsstats.coches.net,REJECT
 DOMAIN-SUFFIX,ai.idg.se,REJECT
-DOMAIN-SUFFIX,analytics.elx.cloud,REJECT
 DOMAIN-SUFFIX,ax.idg.se,REJECT
 DOMAIN-SUFFIX,fusion.bonniertidskrifter.se,REJECT
 DOMAIN-SUFFIX,gx.idg.se,REJECT
