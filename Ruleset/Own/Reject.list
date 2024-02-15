@@ -1,4 +1,4 @@
-# 2024-02-08 08:45
+# 2024-02-15 10:45
 
 # ======= A ======= #
 # 阿里巴巴
@@ -58,6 +58,7 @@ HOST, adttrackingprd.hwwt8.com, REJECT
 # Foreca & Google
 HOST, pagead2.googlesyndication.com, REJECT
 HOST, www.googleadservices.com, REJECT
+HOST-SUFFIX, adservice.google.com, REJECT
 HOST-KEYWORD, adservice.google.com, REJECT
 HOST-KEYWORD, ads.g.doubleclick, REJECT
 # ======= G ======= #
@@ -436,6 +437,7 @@ HOST-SUFFIX,localytics.com,REJECT
 HOST-SUFFIX,mdfull.com,REJECT
 HOST-SUFFIX,measurementapi.com,REJECT
 HOST-SUFFIX,medialytics.com,REJECT
+HOST-SUFFIX,mediav.com,REJECT
 HOST-SUFFIX,meetrics.com,REJECT
 HOST-SUFFIX,meetrics.net,REJECT
 HOST-SUFFIX,miaozhen.com,REJECT
@@ -739,7 +741,6 @@ HOST-SUFFIX,zucks.net,REJECT
 HOST-SUFFIX,zumobi.com,REJECT
 HOST-SUFFIX,zwaar.org,REJECT
 HOST-SUFFIX,zxrtb.com,REJECT
-HOST-SUFFIX,mediav.com,REJECT
 HOST-SUFFIX,8le8le.com,REJECT
 HOST-SUFFIX,jomwihn.cn,REJECT
 HOST-SUFFIX,wuyicom.top,REJECT
@@ -949,6 +950,7 @@ HOST,mobad.ijinshan.com,REJECT
 HOST,ups.ksmobile.net,REJECT
 HOST,ws.ksmobile.net,REJECT
 # > Kuaishou
+HOST-SUFFIX,e.kuaishou.cn,REJECT
 HOST-SUFFIX,e.kuaishou.com,REJECT
 HOST,js-ad.a.yximgs.com,REJECT
 # (L)
