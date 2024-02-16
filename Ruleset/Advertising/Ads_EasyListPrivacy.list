@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402151519
+## ! Version: 202402161431
 ## ! Title: EasyPrivacy
-## ! Last modified: 15 Feb 2024 15:19 UTC
+## ! Last modified: 16 Feb 2024 14:31 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -45,6 +45,7 @@ DOMAIN-SUFFIX,alpha1trk.com,REJECT
 DOMAIN-SUFFIX,altopd.com,REJECT
 DOMAIN-SUFFIX,analys.live,REJECT
 DOMAIN-SUFFIX,analysis.fi,REJECT
+DOMAIN-SUFFIX,analyt.ir,REJECT
 DOMAIN-SUFFIX,anonstat.pw,REJECT
 DOMAIN-SUFFIX,apeagle.io,REJECT
 DOMAIN-SUFFIX,apenterprise.io,REJECT
@@ -901,6 +902,7 @@ DOMAIN-SUFFIX,divergentoffer.com,REJECT
 DOMAIN-SUFFIX,dk4ywix.com,REJECT
 DOMAIN-SUFFIX,dockdigestion.com,REJECT
 DOMAIN-SUFFIX,docksalmon.com,REJECT
+DOMAIN-SUFFIX,dogcollarfavourbluff.com,REJECT
 DOMAIN-SUFFIX,dogsshoes.com,REJECT
 DOMAIN-SUFFIX,dollardelta.com,REJECT
 DOMAIN-SUFFIX,dolldetail.com,REJECT
@@ -935,6 +937,7 @@ DOMAIN-SUFFIX,earthycopy.com,REJECT
 DOMAIN-SUFFIX,eatablesquare.com,REJECT
 DOMAIN-SUFFIX,echoinghaven.com,REJECT
 DOMAIN-SUFFIX,economicpizzas.com,REJECT
+DOMAIN-SUFFIX,educatedeggnog.com,REJECT
 DOMAIN-SUFFIX,efficaciouscactus.com,REJECT
 DOMAIN-SUFFIX,ejyymghi.com,REJECT
 DOMAIN-SUFFIX,elasticchange.com,REJECT
@@ -1262,6 +1265,7 @@ DOMAIN-SUFFIX,jimny.pro,REJECT
 DOMAIN-SUFFIX,joblessdrum.com,REJECT
 DOMAIN-SUFFIX,joyoussurprise.com,REJECT
 DOMAIN-SUFFIX,jubilantcanyon.com,REJECT
+DOMAIN-SUFFIX,jubilantglimmer.com,REJECT
 DOMAIN-SUFFIX,justicejudo.com,REJECT
 DOMAIN-SUFFIX,k54nw.pw,REJECT
 DOMAIN-SUFFIX,kaputquill.com,REJECT
@@ -4140,9 +4144,9 @@ DOMAIN-SUFFIX,dc.banggood.com,REJECT
 DOMAIN-SUFFIX,dd.auspost.com.au,REJECT
 DOMAIN-SUFFIX,dd.nytimes.com,REJECT
 DOMAIN-SUFFIX,deliver.ptgncdn.com,REJECT
-DOMAIN-SUFFIX,df.infra.shopee.ph,REJECT
 DOMAIN-SUFFIX,discover-metrics.cloud.seek.com.au,REJECT
 DOMAIN-SUFFIX,dls-account.di.atlas.samsung.com,REJECT
+DOMAIN-SUFFIX,dot.nonolive.com,REJECT
 DOMAIN-SUFFIX,dp.shoprunner.com,REJECT
 DOMAIN-SUFFIX,dtag.breadfinancial.com,REJECT
 DOMAIN-SUFFIX,dumpster.cam4.com,REJECT
@@ -4505,6 +4509,7 @@ DOMAIN-SUFFIX,tracking.carsales.com.au,REJECT
 DOMAIN-SUFFIX,tracking.christianpost.com,REJECT
 DOMAIN-SUFFIX,tracking.digitalocean.com,REJECT
 DOMAIN-SUFFIX,tracking.engineering.cloud.seek.com.au,REJECT
+DOMAIN-SUFFIX,tracking.game8.co,REJECT
 DOMAIN-SUFFIX,tracking.hsn.com,REJECT
 DOMAIN-SUFFIX,tracking.shopstyle.co.uk,REJECT
 DOMAIN-SUFFIX,tracking.shopstyle.com,REJECT
@@ -4516,7 +4521,6 @@ DOMAIN-SUFFIX,trk.tirto.id,REJECT
 DOMAIN-SUFFIX,trx3.famousfix.com,REJECT
 DOMAIN-SUFFIX,ts.delfi.lt,REJECT
 DOMAIN-SUFFIX,ua.indianexpress.com,REJECT
-DOMAIN-SUFFIX,ubt.tracking.shopee.ph,REJECT
 DOMAIN-SUFFIX,ubuyanalytics.ubuy.com,REJECT
 DOMAIN-SUFFIX,um.contentstudio.io,REJECT
 DOMAIN-SUFFIX,umami.wakarimasen.moe,REJECT
