@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402201547
+## ! Version: 202402211544
 ## ! Title: EasyPrivacy
-## ! Last modified: 20 Feb 2024 15:47 UTC
+## ! Last modified: 21 Feb 2024 15:44 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -203,6 +203,7 @@ DOMAIN-SUFFIX,jubbie.de,REJECT
 DOMAIN-SUFFIX,k5a.io,REJECT
 DOMAIN-SUFFIX,krxd.net,REJECT
 DOMAIN-SUFFIX,kspotson.de,REJECT
+DOMAIN-SUFFIX,ldgnrtn.com,REJECT
 DOMAIN-SUFFIX,ldnlyap.com,REJECT
 DOMAIN-SUFFIX,leadhit.io,REJECT
 DOMAIN-SUFFIX,liveyield.com,REJECT
@@ -1412,6 +1413,7 @@ DOMAIN-SUFFIX,naivestatement.com,REJECT
 DOMAIN-SUFFIX,nappyattack.com,REJECT
 DOMAIN-SUFFIX,nappyneck.com,REJECT
 DOMAIN-SUFFIX,neatshade.com,REJECT
+DOMAIN-SUFFIX,nebulacrescent.com,REJECT
 DOMAIN-SUFFIX,nebulousripple.com,REJECT
 DOMAIN-SUFFIX,necessarywax.com,REJECT
 DOMAIN-SUFFIX,needlessnorth.com,REJECT
@@ -3980,6 +3982,7 @@ DOMAIN-SUFFIX,tracking.smartmeapp.com,REJECT
 DOMAIN-SUFFIX,webpixel.smartmeapp.com,REJECT
 DOMAIN-SUFFIX,collector.schibsted.io,REJECT
 DOMAIN-SUFFIX,evt-api.ntm.eu,REJECT
+DOMAIN-SUFFIX,impression-tracker-service-5eimuebuhq-lz.a.run.app,REJECT
 DOMAIN-SUFFIX,pixel.smartmedia.tj,REJECT
 DOMAIN-SUFFIX,sal.isanook.com,REJECT
 DOMAIN-SUFFIX,stat.matichon.co.th,REJECT
@@ -37189,7 +37192,6 @@ DOMAIN-SUFFIX,link.nextaveapp.com,REJECT
 DOMAIN-SUFFIX,link.nextlevelsports.com,REJECT
 DOMAIN-SUFFIX,link.nilclub.com,REJECT
 DOMAIN-SUFFIX,link.notifications.busuu.app,REJECT
-DOMAIN-SUFFIX,link.nubank.com.br,REJECT
 DOMAIN-SUFFIX,link.nutty.chat,REJECT
 DOMAIN-SUFFIX,link.offers.kodakmoments.com,REJECT
 DOMAIN-SUFFIX,link.olympya.com,REJECT
