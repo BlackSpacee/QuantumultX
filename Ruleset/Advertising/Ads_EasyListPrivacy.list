@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402251422
+## ! Version: 202402261503
 ## ! Title: EasyPrivacy
-## ! Last modified: 25 Feb 2024 14:22 UTC
+## ! Last modified: 26 Feb 2024 15:03 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -330,6 +330,7 @@ DOMAIN-SUFFIX,tracking24.net,REJECT
 DOMAIN-SUFFIX,transmapp.com,REJECT
 DOMAIN-SUFFIX,triplestat.online,REJECT
 DOMAIN-SUFFIX,trk-maiorum.com,REJECT
+DOMAIN-SUFFIX,trkapi.impact.com,REJECT
 DOMAIN-SUFFIX,trkbc.com,REJECT
 DOMAIN-SUFFIX,trkn.us,REJECT
 DOMAIN-SUFFIX,tru.am,REJECT
@@ -1792,6 +1793,7 @@ DOMAIN-SUFFIX,sheltercellar.com,REJECT
 DOMAIN-SUFFIX,shesubscriptions.com,REJECT
 DOMAIN-SUFFIX,shinesavage.com,REJECT
 DOMAIN-SUFFIX,shinestuart.com,REJECT
+DOMAIN-SUFFIX,shinypond.com,REJECT
 DOMAIN-SUFFIX,shirtsidewalk.com,REJECT
 DOMAIN-SUFFIX,shiveringspot.com,REJECT
 DOMAIN-SUFFIX,shiverscissors.com,REJECT
@@ -3354,7 +3356,6 @@ DOMAIN-SUFFIX,x.weather.com,REJECT
 DOMAIN-SUFFIX,xp2023-pix.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,adsdk.yandex.ru,REJECT
 DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com,REJECT
-DOMAIN-SUFFIX,analytics.b2.ai,REJECT
 DOMAIN-SUFFIX,analytics.mobile.yandex.net,REJECT
 DOMAIN-SUFFIX,analytics.samsungknox.com,REJECT
 DOMAIN-SUFFIX,click.oneplus.cn,REJECT
@@ -4199,6 +4200,7 @@ DOMAIN-SUFFIX,events2.www.edenfantasys.com,REJECT
 DOMAIN-SUFFIX,evs.icy-lake.kickstarter.com,REJECT
 DOMAIN-SUFFIX,exr-mms.expertreviews.co.uk,REJECT
 DOMAIN-SUFFIX,f362.nola.com,REJECT
+DOMAIN-SUFFIX,faro-collector-prod-*.grafana.net,REJECT
 DOMAIN-SUFFIX,fathom.app.silverbeak.com,REJECT
 DOMAIN-SUFFIX,fathom.tdvm.net,REJECT
 DOMAIN-SUFFIX,fbo-statistics-collector-tc.is.flippingbook.com,REJECT
