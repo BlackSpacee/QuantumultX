@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402271037
+## ! Version: 202402281543
 ## ! Title: EasyPrivacy
-## ! Last modified: 27 Feb 2024 10:37 UTC
+## ! Last modified: 28 Feb 2024 15:43 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -3536,6 +3536,7 @@ DOMAIN-SUFFIX,met.vgwort.de,REJECT
 DOMAIN-SUFFIX,nexxtv-events.servicebus.windows.net,REJECT
 DOMAIN-SUFFIX,omniture.eaeurope.eu,REJECT
 DOMAIN-SUFFIX,orbidder.otto.de,REJECT
+DOMAIN-SUFFIX,owen.prolitteris.ch,REJECT
 DOMAIN-SUFFIX,pixel.poptok.com,REJECT
 DOMAIN-SUFFIX,plausible.ams.to,REJECT
 DOMAIN-SUFFIX,px.staticfiles.at,REJECT
@@ -3852,6 +3853,7 @@ DOMAIN-SUFFIX,ish.tumedia.no,REJECT
 DOMAIN-SUFFIX,log.medietall.no,REJECT
 DOMAIN-SUFFIX,analytics.aasaam.com,REJECT
 DOMAIN-SUFFIX,analytics.ceneo.pl,REJECT
+DOMAIN-SUFFIX,ar1.aza.io,REJECT
 DOMAIN-SUFFIX,cmp.dreamlab.pl,REJECT
 DOMAIN-SUFFIX,dsg.interia.pl,REJECT
 DOMAIN-SUFFIX,hit.interia.pl,REJECT
