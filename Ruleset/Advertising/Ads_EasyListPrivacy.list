@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403051444
+## ! Version: 202403061509
 ## ! Title: EasyPrivacy
-## ! Last modified: 05 Mar 2024 14:44 UTC
+## ! Last modified: 06 Mar 2024 15:09 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,clrt.ai,REJECT
 DOMAIN-SUFFIX,cntxtfl.com,REJECT
 DOMAIN-SUFFIX,confiant-integrations.net,REJECT
 DOMAIN-SUFFIX,convead.io,REJECT
+DOMAIN-SUFFIX,conversationalsdevelopment.nl,REJECT
 DOMAIN-SUFFIX,convertlink.com,REJECT
 DOMAIN-SUFFIX,cpx.to,REJECT
 DOMAIN-SUFFIX,crwdcntrl.net,REJECT
@@ -206,6 +207,7 @@ DOMAIN-SUFFIX,kspotson.de,REJECT
 DOMAIN-SUFFIX,ldgnrtn.com,REJECT
 DOMAIN-SUFFIX,ldnlyap.com,REJECT
 DOMAIN-SUFFIX,leadhit.io,REJECT
+DOMAIN-SUFFIX,lemonpi.io,REJECT
 DOMAIN-SUFFIX,liveyield.com,REJECT
 DOMAIN-SUFFIX,lltrck.com,REJECT
 DOMAIN-SUFFIX,lmepbq.com,REJECT
@@ -2975,6 +2977,7 @@ DOMAIN-SUFFIX,r.skimresources.com,REJECT
 DOMAIN-SUFFIX,ramp.purch.com,REJECT
 DOMAIN-SUFFIX,reach-id.orbit.tm-awx.com,REJECT
 DOMAIN-SUFFIX,realm.hearst3pcc.com,REJECT
+DOMAIN-SUFFIX,receive.wmcdp.io,REJECT
 DOMAIN-SUFFIX,recs.shareaholic.com,REJECT
 DOMAIN-SUFFIX,refer.wordpress.com,REJECT
 DOMAIN-SUFFIX,referrer.disqus.com,REJECT
@@ -3462,6 +3465,7 @@ DOMAIN-SUFFIX,d3lqotgbn3npr.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d3m6sept6cnil5.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d3mskfhorhi2fb.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d3n6i6eorggdxk.cloudfront.net,REJECT
+DOMAIN-SUFFIX,d3or5d0jdz94or.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d3pi0tys5sdysl.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d3plfjw9uod7ab.cloudfront.net,REJECT
 DOMAIN-SUFFIX,d3qztsm17pgxue.cloudfront.net,REJECT
@@ -4203,6 +4207,7 @@ DOMAIN-SUFFIX,euclid.kuula.co,REJECT
 DOMAIN-SUFFIX,eurogamer-uk.eurogamer.net,REJECT
 DOMAIN-SUFFIX,event-api.reverb.com,REJECT
 DOMAIN-SUFFIX,event-collector.moviesanywhere.com,REJECT
+DOMAIN-SUFFIX,event-router.olympics.com,REJECT
 DOMAIN-SUFFIX,event.platform.tunein.com,REJECT
 DOMAIN-SUFFIX,eventlog.jackpot.de,REJECT
 DOMAIN-SUFFIX,events-prod.autolist.com,REJECT
