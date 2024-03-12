@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403111431
+## ! Version: 202403121150
 ## ! Title: EasyPrivacy
-## ! Last modified: 11 Mar 2024 14:31 UTC
+## ! Last modified: 12 Mar 2024 11:50 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,adscore.com,REJECT
 DOMAIN-SUFFIX,adspsp.com,REJECT
 DOMAIN-SUFFIX,adstk.io,REJECT
 DOMAIN-SUFFIX,adultium.com,REJECT
+DOMAIN-SUFFIX,aggle.net,REJECT
 DOMAIN-SUFFIX,agkn.com,REJECT
 DOMAIN-SUFFIX,agma-analytics.de,REJECT
 DOMAIN-SUFFIX,allvideometrika.com,REJECT
@@ -83,6 +84,7 @@ DOMAIN-SUFFIX,click360.io,REJECT
 DOMAIN-SUFFIX,cliquelead.com,REJECT
 DOMAIN-SUFFIX,cloudwp.io,REJECT
 DOMAIN-SUFFIX,clrt.ai,REJECT
+DOMAIN-SUFFIX,cnna.io,REJECT
 DOMAIN-SUFFIX,cntxtfl.com,REJECT
 DOMAIN-SUFFIX,confiant-integrations.net,REJECT
 DOMAIN-SUFFIX,convead.io,REJECT
@@ -166,6 +168,7 @@ DOMAIN-SUFFIX,g9706132415.co,REJECT
 DOMAIN-SUFFIX,g990421675.co,REJECT
 DOMAIN-SUFFIX,g990421676.co,REJECT
 DOMAIN-SUFFIX,gbqofs.com,REJECT
+DOMAIN-SUFFIX,gcprivacy.com,REJECT
 DOMAIN-SUFFIX,geoedge.be,REJECT
 DOMAIN-SUFFIX,geotargetly-api-*.com,REJECT
 DOMAIN-SUFFIX,getdeviceinf.com,REJECT
@@ -3143,6 +3146,7 @@ DOMAIN-SUFFIX,t.sharethis.com,REJECT
 DOMAIN-SUFFIX,t.signalayer.com,REJECT
 DOMAIN-SUFFIX,t.skimresources.com,REJECT
 DOMAIN-SUFFIX,t.smile.eu,REJECT
+DOMAIN-SUFFIX,t.spbx.app,REJECT
 DOMAIN-SUFFIX,t.splicky.com,REJECT
 DOMAIN-SUFFIX,t.spot.im,REJECT
 DOMAIN-SUFFIX,t2.t2b.click,REJECT
