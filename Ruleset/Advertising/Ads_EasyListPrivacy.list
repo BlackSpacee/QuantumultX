@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403131539
+## ! Version: 202403141549
 ## ! Title: EasyPrivacy
-## ! Last modified: 13 Mar 2024 15:39 UTC
+## ! Last modified: 14 Mar 2024 15:49 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -38946,7 +38946,6 @@ DOMAIN-SUFFIX,tla.traderlink.com,REJECT
 DOMAIN-SUFFIX,track.tesiteca.it,REJECT
 DOMAIN-SUFFIX,tracker.stileo.it,REJECT
 DOMAIN-SUFFIX,tracking.gruppo.mps.it,REJECT
-DOMAIN-SUFFIX,track.prod.smash.pet,REJECT
 DOMAIN-SUFFIX,analysis.aws.locondo.jp,REJECT
 DOMAIN-SUFFIX,analytics.castel.jp,REJECT
 DOMAIN-SUFFIX,analytics.cocolog-nifty.com,REJECT
@@ -38987,6 +38986,7 @@ DOMAIN-SUFFIX,sy.amebame.com,REJECT
 DOMAIN-SUFFIX,sy.ameblo.jp,REJECT
 DOMAIN-SUFFIX,t.syosetu.org,REJECT
 DOMAIN-SUFFIX,track.buyma.com,REJECT
+DOMAIN-SUFFIX,track.prod.smash.pet,REJECT
 DOMAIN-SUFFIX,tracking.ai.rakuten.co.jp,REJECT
 DOMAIN-SUFFIX,tracking.game8.jp,REJECT
 DOMAIN-SUFFIX,tracking.gnavi.co.jp,REJECT
