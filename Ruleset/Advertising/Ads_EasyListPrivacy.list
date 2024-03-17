@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403161256
+## ! Version: 202403171100
 ## ! Title: EasyPrivacy
-## ! Last modified: 16 Mar 2024 12:56 UTC
+## ! Last modified: 17 Mar 2024 11:00 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -88,7 +88,6 @@ DOMAIN-SUFFIX,cnna.io,REJECT
 DOMAIN-SUFFIX,cntxtfl.com,REJECT
 DOMAIN-SUFFIX,confiant-integrations.net,REJECT
 DOMAIN-SUFFIX,convead.io,REJECT
-DOMAIN-SUFFIX,conversationalsdevelopment.nl,REJECT
 DOMAIN-SUFFIX,convertlink.com,REJECT
 DOMAIN-SUFFIX,cpx.to,REJECT
 DOMAIN-SUFFIX,crwdcntrl.net,REJECT
@@ -4195,11 +4194,13 @@ DOMAIN-SUFFIX,dot.nonolive.com,REJECT
 DOMAIN-SUFFIX,dp.shoprunner.com,REJECT
 DOMAIN-SUFFIX,dtag.breadfinancial.com,REJECT
 DOMAIN-SUFFIX,dumpster.cam4.com,REJECT
+DOMAIN-SUFFIX,e.quizlet.com,REJECT
 DOMAIN-SUFFIX,ea.epochbase.com,REJECT
 DOMAIN-SUFFIX,ec.thredup.com,REJECT
 DOMAIN-SUFFIX,edge.staging.fullstory.com,REJECT
 DOMAIN-SUFFIX,eec.crunchyroll.com,REJECT
 DOMAIN-SUFFIX,ejlytics.editorji.com,REJECT
+DOMAIN-SUFFIX,el.quizlet.com,REJECT
 DOMAIN-SUFFIX,engagefront.meteomedia.com,REJECT
 DOMAIN-SUFFIX,engagefront.theweathernetwork.com,REJECT
 DOMAIN-SUFFIX,engagement.feedly.com,REJECT
