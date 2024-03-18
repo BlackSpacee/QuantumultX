@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403171100
+## ! Version: 202403181532
 ## ! Title: EasyPrivacy
-## ! Last modified: 17 Mar 2024 11:00 UTC
+## ! Last modified: 18 Mar 2024 15:32 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -3804,6 +3804,7 @@ DOMAIN-SUFFIX,bidder.mediams.mb.softbank.jp,REJECT
 DOMAIN-SUFFIX,bs.nakanohito.jp,REJECT
 DOMAIN-SUFFIX,bvr.ast.snva.jp,REJECT
 DOMAIN-SUFFIX,bvr.snva.jp,REJECT
+DOMAIN-SUFFIX,cdn.ad-platform.jmty.jp,REJECT
 DOMAIN-SUFFIX,cookie.sync.usonar.jp,REJECT
 DOMAIN-SUFFIX,counter2.blog.livedoor.com,REJECT
 DOMAIN-SUFFIX,crossees.com,REJECT
@@ -4549,6 +4550,7 @@ DOMAIN-SUFFIX,track.mrgugu.com,REJECT
 DOMAIN-SUFFIX,track.netzero.net,REJECT
 DOMAIN-SUFFIX,track.sodapdf.com,REJECT
 DOMAIN-SUFFIX,track.thesaurus.com,REJECT
+DOMAIN-SUFFIX,track.ttsave.app,REJECT
 DOMAIN-SUFFIX,track.ultimate-guitar.com,REJECT
 DOMAIN-SUFFIX,tracker.affiliate.iqbroker.com,REJECT
 DOMAIN-SUFFIX,tracker.nbcuas.com,REJECT
@@ -34476,7 +34478,6 @@ DOMAIN-SUFFIX,9984342.reddoorz.in,REJECT
 DOMAIN-SUFFIX,9b55.pandasuite.io,REJECT
 DOMAIN-SUFFIX,9bdb.pandasuite.io,REJECT
 DOMAIN-SUFFIX,9kvnwwkj.pandasuite.io,REJECT
-DOMAIN-SUFFIX,_tcp.academyofconsciousleadership.net,REJECT
 DOMAIN-SUFFIX,a-t.topya.com,REJECT
 DOMAIN-SUFFIX,a.a23.in,REJECT
 DOMAIN-SUFFIX,a.careangel.com,REJECT
