@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403221503
+## ! Version: 202403231529
 ## ! Title: EasyPrivacy
-## ! Last modified: 22 Mar 2024 15:03 UTC
+## ! Last modified: 23 Mar 2024 15:29 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -219,6 +219,7 @@ DOMAIN-SUFFIX,logicanalytics.io,REJECT
 DOMAIN-SUFFIX,logtail.com,REJECT
 DOMAIN-SUFFIX,loopcybersec.com,REJECT
 DOMAIN-SUFFIX,lsdm.co,REJECT
+DOMAIN-SUFFIX,lyfnh.io,REJECT
 DOMAIN-SUFFIX,maggieeatstheangel.com,REJECT
 DOMAIN-SUFFIX,matheranalytics.com,REJECT
 DOMAIN-SUFFIX,mathilde-ads.com,REJECT
@@ -2467,6 +2468,7 @@ DOMAIN-SUFFIX,b7tp47v2nb3x-a.akamaihd.net,REJECT
 DOMAIN-SUFFIX,bacon.section.io,REJECT
 DOMAIN-SUFFIX,barium.cheezdev.com,REJECT
 DOMAIN-SUFFIX,bat.bing.com,REJECT
+DOMAIN-SUFFIX,baxter.olx.org,REJECT
 DOMAIN-SUFFIX,bc.marfeelcache.com,REJECT
 DOMAIN-SUFFIX,beacon.adelphic.com,REJECT
 DOMAIN-SUFFIX,beacon.affil.walmart.com,REJECT
@@ -3996,6 +3998,7 @@ DOMAIN-SUFFIX,collector-videoplayer.5centscdn.net,REJECT
 DOMAIN-SUFFIX,contador.biobiochile.cl,REJECT
 DOMAIN-SUFFIX,contadores.miarroba.com,REJECT
 DOMAIN-SUFFIX,contadores.miarroba.es,REJECT
+DOMAIN-SUFFIX,count.sibbo.net,REJECT
 DOMAIN-SUFFIX,creatives.sunmedia.tv,REJECT
 DOMAIN-SUFFIX,ctx.citiservi.es,REJECT
 DOMAIN-SUFFIX,datanoticias.prisasd.com,REJECT
@@ -4180,6 +4183,7 @@ DOMAIN-SUFFIX,cstats.sankakucomplex.com,REJECT
 DOMAIN-SUFFIX,cwt.citywire.info,REJECT
 DOMAIN-SUFFIX,d.skk.moe,REJECT
 DOMAIN-SUFFIX,d401.dollartree.com,REJECT
+DOMAIN-SUFFIX,dabu.askmediagroup.com,REJECT
 DOMAIN-SUFFIX,data.allstate.com,REJECT
 DOMAIN-SUFFIX,data.guide.photobucket.com,REJECT
 DOMAIN-SUFFIX,data.torry.io,REJECT
