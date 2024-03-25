@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403241530
+## ! Version: 202403251356
 ## ! Title: EasyPrivacy
-## ! Last modified: 24 Mar 2024 15:30 UTC
+## ! Last modified: 25 Mar 2024 13:56 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -3003,6 +3003,7 @@ DOMAIN-SUFFIX,rtc.multiscreensite.com,REJECT
 DOMAIN-SUFFIX,rtxpx-a.akamaihd.net,REJECT
 DOMAIN-SUFFIX,rum.azion.com,REJECT
 DOMAIN-SUFFIX,rum.azioncdn.net,REJECT
+DOMAIN-SUFFIX,rum.corewebvitals.io,REJECT
 DOMAIN-SUFFIX,rum.ingress.layer0.co,REJECT
 DOMAIN-SUFFIX,rum.layer0.co,REJECT
 DOMAIN-SUFFIX,rum.perfops.net,REJECT
@@ -3490,6 +3491,7 @@ DOMAIN-SUFFIX,dc8na2hxrj29i.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dc8xl0ndzn2cb.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dd6zx4ibq538k.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dggaenaawxe8z.cloudfront.net,REJECT
+DOMAIN-SUFFIX,dh0c1bz67fuho.cloudfront.net,REJECT
 DOMAIN-SUFFIX,di2xwvxz1jrvu.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dkupaw9ae63a8.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dl1d2m8ri9v3j.cloudfront.net,REJECT
@@ -18802,7 +18804,6 @@ DOMAIN-SUFFIX,beaumont.actonservice.com,REJECT
 DOMAIN-SUFFIX,bersondeanstevens.actonservice.com,REJECT
 DOMAIN-SUFFIX,bestbuy.actonservice.com,REJECT
 DOMAIN-SUFFIX,bestinfo.bluetrustloans.com,REJECT
-DOMAIN-SUFFIX,beyondmeasure.rigoltech.com,REJECT
 DOMAIN-SUFFIX,bgiamericas.actonservice.com,REJECT
 DOMAIN-SUFFIX,bi.concordesolutions.com,REJECT
 DOMAIN-SUFFIX,bigcustomernetwork.actonservice.com,REJECT
