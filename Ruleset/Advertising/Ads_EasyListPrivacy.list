@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403251356
+## ! Version: 202403261544
 ## ! Title: EasyPrivacy
-## ! Last modified: 25 Mar 2024 13:56 UTC
+## ! Last modified: 26 Mar 2024 15:44 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -2553,6 +2553,7 @@ DOMAIN-SUFFIX,collect.rebelmouse.io,REJECT
 DOMAIN-SUFFIX,collect.rewardstyle.com,REJECT
 DOMAIN-SUFFIX,collect.usefathom.com,REJECT
 DOMAIN-SUFFIX,collect.verify.lnearn.com,REJECT
+DOMAIN-SUFFIX,collection.e-satisfaction.com,REJECT
 DOMAIN-SUFFIX,collector-*.px-client.net,REJECT
 DOMAIN-SUFFIX,collector-api.99designs.com,REJECT
 DOMAIN-SUFFIX,collector-api.frspecifics.com,REJECT
@@ -2682,7 +2683,6 @@ DOMAIN-SUFFIX,eventgateway.soundcloud.com,REJECT
 DOMAIN-SUFFIX,eventlog.chatlead.com,REJECT
 DOMAIN-SUFFIX,eventlog.inspsearchapi.com,REJECT
 DOMAIN-SUFFIX,events.air.tv,REJECT
-DOMAIN-SUFFIX,events.apester.com,REJECT
 DOMAIN-SUFFIX,events.attentivemobile.com,REJECT
 DOMAIN-SUFFIX,events.audiate.me,REJECT
 DOMAIN-SUFFIX,events.brightline.tv,REJECT
