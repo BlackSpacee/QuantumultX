@@ -591,6 +591,7 @@ HOST-SUFFIX,ads.internal.unity3d.com,REJECT
 HOST-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 HOST-SUFFIX,unityads.unity3d.com,REJECT
 # --- (Alibaba) ---
+HOST,hc-ssp.sm.cn,REJECT
 HOST,tunion-api.m.taobao.com,REJECT
 # > YOUKU
 HOST-SUFFIX,ad.youku.com,REJECT
@@ -677,10 +678,6 @@ HOST,logs.chelaile.net.cn,REJECT
 HOST,dispatcher.360in.com,REJECT
 HOST,ad.360in.com,REJECT
 HOST,exp.360in.com,REJECT
-
-# (D)
-# > Douban
-AND,((USER-AGENT,Frodo*), (HOST,119.29.29.29)),REJECT
 
 # (G)
 # > Google
@@ -835,9 +832,8 @@ HOST-SUFFIX,pv.sohu.com,REJECT
 HOST,ads.snapchat.com,REJECT
 HOST,adsapi.snapchat.com,REJECT
 # > Skyworth
-HOST-SUFFIX,hoisin.coocaa.com,REJECT
-HOST-SUFFIX,hoisin.coocaatv.com,REJECT
-HOST,data-hoisin.coocaa.com,REJECT
+HOST-KEYWORD,hoisin.coocaa.com,REJECT
+HOST-KEYWORD,hoisin.coocaatv.com,REJECT
 
 # (T)
 # --- (Tencent) ---
