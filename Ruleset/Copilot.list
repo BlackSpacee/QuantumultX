@@ -4,7 +4,6 @@ HOST,api.msn.com,PROXY
 HOST,assets.msn.com,PROXY
 HOST,copilot.microsoft.com,PROXY
 HOST,dealczars.bing-shopping.microsoft-falcon.io,PROXY
-# HOST,eas.outlook.com
 HOST,edgeservices.bing.com,PROXY
 HOST,functional.events.data.microsoft.com,PROXY
 HOST,gateway.bingviz.microsoftapp.net,PROXY

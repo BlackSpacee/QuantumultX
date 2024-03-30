@@ -1,4 +1,4 @@
-# 2024-03-02 19:41:41
+# 2024-03-30 18:38:16
 HOST, api.statsig.com, proxy
 HOST, browser-intake-datadoghq.com, proxy
 HOST, cdn.openai.com, proxy
@@ -13,7 +13,6 @@ HOST, production-openaicom-storage.azureedge.net, proxy
 HOST, static.cloudflareinsights.com, proxy
 HOST-SUFFIX, algolia.net, proxy
 HOST-SUFFIX, auth0.com, proxy
-HOST-SUFFIX, cdn.cloudflare.net, proxy
 HOST-SUFFIX, chatgpt.com, proxy
 HOST-SUFFIX, challenges.cloudflare.com, proxy
 HOST-SUFFIX, client-api.arkoselabs.com, proxy
