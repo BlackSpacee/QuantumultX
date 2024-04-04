@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202404031456
+## ! Version: 202404041314
 ## ! Title: EasyPrivacy
-## ! Last modified: 03 Apr 2024 14:56 UTC
+## ! Last modified: 04 Apr 2024 13:14 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -4066,6 +4066,7 @@ DOMAIN-SUFFIX,aegis.trovo.live,REJECT
 DOMAIN-SUFFIX,alb.reddit.com,REJECT
 DOMAIN-SUFFIX,als-svc.nytimes.com,REJECT
 DOMAIN-SUFFIX,amethyst.zappos.com,REJECT
+DOMAIN-SUFFIX,amplitude.chess.com,REJECT
 DOMAIN-SUFFIX,ampltd.medal.tv,REJECT
 DOMAIN-SUFFIX,ampltd.top.gg,REJECT
 DOMAIN-SUFFIX,ampltd2.medal.tv,REJECT
@@ -4499,6 +4500,7 @@ DOMAIN-SUFFIX,stats.wwitv.com,REJECT
 DOMAIN-SUFFIX,stats2.mytuner.mobi,REJECT
 DOMAIN-SUFFIX,statsegg.cdngeek.com,REJECT
 DOMAIN-SUFFIX,streamstats.prd.dlive.tv,REJECT
+DOMAIN-SUFFIX,svc.eu01.miro.com,REJECT
 DOMAIN-SUFFIX,szrpr.raen.com,REJECT
 DOMAIN-SUFFIX,t.9gag.com,REJECT
 DOMAIN-SUFFIX,t.airasia.com,REJECT
@@ -4586,6 +4588,7 @@ DOMAIN-SUFFIX,tracking.shopstyle.co.uk,REJECT
 DOMAIN-SUFFIX,tracking.shopstyle.com,REJECT
 DOMAIN-SUFFIX,tracking.unrealengine.com,REJECT
 DOMAIN-SUFFIX,trackr.vivenu.com,REJECT
+DOMAIN-SUFFIX,trcksplt.miro.com,REJECT
 DOMAIN-SUFFIX,treatment.grammarly.com,REJECT
 DOMAIN-SUFFIX,tredir.go.com,REJECT
 DOMAIN-SUFFIX,trk.decido.io,REJECT
@@ -38781,6 +38784,8 @@ DOMAIN-SUFFIX,tags.aljazeera.net,REJECT
 DOMAIN-SUFFIX,insight.olx.ba,REJECT
 DOMAIN-SUFFIX,4399stat.5054399.com,REJECT
 DOMAIN-SUFFIX,a.itsmore.cn,REJECT
+DOMAIN-SUFFIX,ac.dun.163.com,REJECT
+DOMAIN-SUFFIX,ac.dun.163yun.com,REJECT
 DOMAIN-SUFFIX,accwww9.53kf.com,REJECT
 DOMAIN-SUFFIX,adstats.tencentmusic.com,REJECT
 DOMAIN-SUFFIX,al.autohome.com.cn,REJECT
@@ -38800,6 +38805,7 @@ DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,cherry.le.com,REJECT
 DOMAIN-SUFFIX,click.gamersky.com,REJECT
 DOMAIN-SUFFIX,clickcount.cnool.net,REJECT
+DOMAIN-SUFFIX,clientlog.music.163.com,REJECT
 DOMAIN-SUFFIX,count.candou.com,REJECT
 DOMAIN-SUFFIX,count5.pconline.com.cn,REJECT
 DOMAIN-SUFFIX,counter.people.cn,REJECT
@@ -38814,6 +38820,7 @@ DOMAIN-SUFFIX,err.ifengcloud.ifeng.com,REJECT
 DOMAIN-SUFFIX,event.csdn.net,REJECT
 DOMAIN-SUFFIX,fclog.baidu.com,REJECT
 DOMAIN-SUFFIX,flog.pressplay.cc,REJECT
+DOMAIN-SUFFIX,fp-upload.dun.163.com,REJECT
 DOMAIN-SUFFIX,frog.yuanfudao.com,REJECT
 DOMAIN-SUFFIX,ftwo-feedback.autohome.com.cn,REJECT
 DOMAIN-SUFFIX,ftwo-receiver.autohome.com.cn,REJECT
@@ -38860,6 +38867,7 @@ DOMAIN-SUFFIX,rlogs.youdao.com,REJECT
 DOMAIN-SUFFIX,ro.aiwan4399.com,REJECT
 DOMAIN-SUFFIX,s.360.cn,REJECT
 DOMAIN-SUFFIX,sbeacon.sina.com.cn,REJECT
+DOMAIN-SUFFIX,sentry.music.163.com,REJECT
 DOMAIN-SUFFIX,sfp.safe.baidu.com,REJECT
 DOMAIN-SUFFIX,shrek.6.cn,REJECT
 DOMAIN-SUFFIX,sngmta.qq.com,REJECT
