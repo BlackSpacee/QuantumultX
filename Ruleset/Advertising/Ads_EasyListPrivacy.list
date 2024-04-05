@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202404041314
+## ! Version: 202404051607
 ## ! Title: EasyPrivacy
-## ! Last modified: 04 Apr 2024 13:14 UTC
+## ! Last modified: 05 Apr 2024 16:07 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -4500,7 +4500,6 @@ DOMAIN-SUFFIX,stats.wwitv.com,REJECT
 DOMAIN-SUFFIX,stats2.mytuner.mobi,REJECT
 DOMAIN-SUFFIX,statsegg.cdngeek.com,REJECT
 DOMAIN-SUFFIX,streamstats.prd.dlive.tv,REJECT
-DOMAIN-SUFFIX,svc.eu01.miro.com,REJECT
 DOMAIN-SUFFIX,szrpr.raen.com,REJECT
 DOMAIN-SUFFIX,t.9gag.com,REJECT
 DOMAIN-SUFFIX,t.airasia.com,REJECT
