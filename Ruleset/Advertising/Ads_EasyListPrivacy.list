@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202404061242
+## ! Version: 202404071352
 ## ! Title: EasyPrivacy
-## ! Last modified: 06 Apr 2024 12:42 UTC
+## ! Last modified: 07 Apr 2024 13:52 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -3492,6 +3492,7 @@ DOMAIN-SUFFIX,danv01ao0kdr2.cloudfront.net,REJECT
 DOMAIN-SUFFIX,daq0d0aotgq0f.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dc8na2hxrj29i.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dc8xl0ndzn2cb.cloudfront.net,REJECT
+DOMAIN-SUFFIX,dcv4p460uqa46.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dd6zx4ibq538k.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dggaenaawxe8z.cloudfront.net,REJECT
 DOMAIN-SUFFIX,dh0c1bz67fuho.cloudfront.net,REJECT
@@ -4173,6 +4174,7 @@ DOMAIN-SUFFIX,collector.githubapp.com,REJECT
 DOMAIN-SUFFIX,collector.megaxh.com,REJECT
 DOMAIN-SUFFIX,collector.pi.spectrum.net,REJECT
 DOMAIN-SUFFIX,collector.taoxh.life,REJECT
+DOMAIN-SUFFIX,collector.xhaccess.com,REJECT
 DOMAIN-SUFFIX,collector.xhamster.com,REJECT
 DOMAIN-SUFFIX,collector.xhamster.desi,REJECT
 DOMAIN-SUFFIX,collector.xhamster2.com,REJECT
@@ -4192,6 +4194,7 @@ DOMAIN-SUFFIX,cstats.sankakucomplex.com,REJECT
 DOMAIN-SUFFIX,cwt.citywire.info,REJECT
 DOMAIN-SUFFIX,d.skk.moe,REJECT
 DOMAIN-SUFFIX,d401.dollartree.com,REJECT
+DOMAIN-SUFFIX,d712.theinformation.com,REJECT
 DOMAIN-SUFFIX,dabu.askmediagroup.com,REJECT
 DOMAIN-SUFFIX,data.allstate.com,REJECT
 DOMAIN-SUFFIX,data.guide.photobucket.com,REJECT
@@ -39146,10 +39149,13 @@ DOMAIN-SUFFIX,g.siliconweek.es,REJECT
 DOMAIN-SUFFIX,geo.emol.cl,REJECT
 DOMAIN-SUFFIX,hits.antena3.com,REJECT
 DOMAIN-SUFFIX,horizon-track.globo.com,REJECT
+DOMAIN-SUFFIX,mega.promodescuentos.com,REJECT
+DOMAIN-SUFFIX,ocular.promodescuentos.com,REJECT
 DOMAIN-SUFFIX,pixel.europapress.net,REJECT
 DOMAIN-SUFFIX,px-intl.ucweb.com,REJECT
 DOMAIN-SUFFIX,realtime.bbcl.cl,REJECT
 DOMAIN-SUFFIX,rvv.emol.com,REJECT
+DOMAIN-SUFFIX,sst.cooperativa.cl,REJECT
 DOMAIN-SUFFIX,statsmp2.emol.com,REJECT
 DOMAIN-SUFFIX,t-pan.triodos.com,REJECT
 DOMAIN-SUFFIX,unm.emol.com,REJECT
