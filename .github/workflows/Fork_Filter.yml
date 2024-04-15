@@ -26,8 +26,8 @@ jobs:
 
           # OpenAI
           
-          curl -L -o QuantumultX-repo/Ruleset/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/ChatGPT_Voice.snippet"
-          curl -L -o QuantumultX-repo/Ruleset/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/OpenAI.snippet"
+          curl -L -o QuantumultX-repo/Ruleset/ChatGPT_Voice.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/ChatGPT_Voice.list"
+          curl -L -o QuantumultX-repo/Ruleset/OpenAI.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/OpenAI.list"
           
           # 社交媒体
           curl -L -o QuantumultX-repo/Ruleset/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Telegram.list"
