@@ -182,6 +182,7 @@ HOST,geo2.adobe.com,REJECT
 # https://www.zhihu.com/question/46746200
 HOST-SUFFIX,4009997658.com,REJECT
 HOST-SUFFIX,abbyychina.com,REJECT
+HOST-SUFFIX,affinitychina.cn,REJECT
 HOST-SUFFIX,alienskins.cn,REJECT
 HOST-SUFFIX,anydeskchina.cn,REJECT
 HOST-SUFFIX,bartender.cc,REJECT
@@ -202,6 +203,7 @@ HOST-SUFFIX,ediuschina.com,REJECT
 HOST-SUFFIX,flstudiochina.com,REJECT
 HOST-SUFFIX,folxchina.cn,REJECT
 HOST-SUFFIX,formysql.com,REJECT
+HOST-SUFFIX,goldwavechina.cn,REJECT
 HOST-SUFFIX,guitarpro.cc,REJECT
 HOST-SUFFIX,huishenghuiying.com.cn,REJECT
 HOST-SUFFIX,hypeapp.cn,REJECT
@@ -234,6 +236,7 @@ HOST-SUFFIX,overturechina.com,REJECT
 HOST-SUFFIX,passwordrecovery.cn,REJECT
 HOST-SUFFIX,pdfexpert.cc,REJECT
 HOST-SUFFIX,photozoomchina.com,REJECT
+HOST-SUFFIX,ps-chajian.com,REJECT
 HOST-SUFFIX,shankejingling.com,REJECT
 HOST-SUFFIX,ultraiso.net,REJECT
 HOST-SUFFIX,vegaschina.cn,REJECT

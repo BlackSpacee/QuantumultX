@@ -8,7 +8,9 @@ HOST-SUFFIX,1xl.co.uk,REJECT
 HOST-SUFFIX,206ads.com,REJECT
 HOST-SUFFIX,3cinteractive.com,REJECT
 HOST-SUFFIX,4mads.com,REJECT
+HOST-SUFFIX,520click.com,REJECT
 HOST-SUFFIX,5rocks.io,REJECT
+HOST-SUFFIX,8le8le.com,REJECT
 HOST-SUFFIX,a.ki,REJECT
 HOST-SUFFIX,a8.net,REJECT
 HOST-SUFFIX,a9.com,REJECT
@@ -114,6 +116,7 @@ HOST-SUFFIX,adtarget.me,REJECT
 HOST-SUFFIX,adtdp.com,REJECT
 HOST-SUFFIX,adthor.com,REJECT
 HOST-SUFFIX,adtongji.xyz,REJECT
+HOST-SUFFIX,adtongji.xyz,REJECT
 HOST-SUFFIX,adtrace.org,REJECT
 HOST-SUFFIX,advertising.com,REJECT
 HOST-SUFFIX,adwhirl.com,REJECT
@@ -126,6 +129,7 @@ HOST-SUFFIX,algovid.com,REJECT
 HOST-SUFFIX,amazon-adsystem.com,REJECT
 HOST-SUFFIX,amoad.com,REJECT
 HOST-SUFFIX,amobee.com,REJECT
+HOST-SUFFIX,anythinktech.com,REJECT
 HOST-SUFFIX,app-adforce.jp,REJECT
 HOST-SUFFIX,appads.com,REJECT
 HOST-SUFFIX,appcpi.net,REJECT
@@ -149,6 +153,7 @@ HOST-SUFFIX,bulldogcpi.com,REJECT
 HOST-SUFFIX,bxsnews.com,REJECT
 HOST-SUFFIX,carbonads.net,REJECT
 HOST-SUFFIX,cdj99d.cn,REJECT
+HOST-SUFFIX,ce33m7.com,REJECT
 HOST-SUFFIX,clotfun.mobi,REJECT
 HOST-SUFFIX,clotfun.online,REJECT
 HOST-SUFFIX,cloudmobi.net,REJECT
@@ -194,6 +199,7 @@ HOST-SUFFIX,irs01.com,REJECT
 HOST-SUFFIX,iskyworker.com,REJECT
 HOST-SUFFIX,iyoowi.com,REJECT
 HOST-SUFFIX,jads.co,REJECT
+HOST-SUFFIX,jomwihn.cn,REJECT
 HOST-SUFFIX,juicyads.com,REJECT
 HOST-SUFFIX,leadboltmobile.net,REJECT
 HOST-SUFFIX,lenzmx.com,REJECT
@@ -205,6 +211,7 @@ HOST-SUFFIX,mdfull.com,REJECT
 HOST-SUFFIX,measurementapi.com,REJECT
 HOST-SUFFIX,medialytics.com,REJECT
 HOST-SUFFIX,mediav.com,REJECT
+HOST-SUFFIX,medproad.com,REJECT
 HOST-SUFFIX,meetrics.com,REJECT
 HOST-SUFFIX,meetrics.net,REJECT
 HOST-SUFFIX,miaozhen.com,REJECT
@@ -257,6 +264,7 @@ HOST-SUFFIX,owneriq.net,REJECT
 HOST-SUFFIX,ownlocal.com,REJECT
 HOST-SUFFIX,pagefair.com,REJECT
 HOST-SUFFIX,pagefair.net,REJECT
+HOST-SUFFIX,pangle.io,REJECT
 HOST-SUFFIX,pdbarea.com,REJECT
 HOST-SUFFIX,perfectaudience.com,REJECT
 HOST-SUFFIX,performancehorizon.com,REJECT
@@ -474,8 +482,10 @@ HOST-SUFFIX,wordstream.com,REJECT
 HOST-SUFFIX,wrinkads.com,REJECT
 HOST-SUFFIX,wsod.com,REJECT
 HOST-SUFFIX,wudejia.com,REJECT
+HOST-SUFFIX,wuyicom.top,REJECT
 HOST-SUFFIX,xapads.com,REJECT
 HOST-SUFFIX,xdrig.com,REJECT
+HOST-SUFFIX,xlviirdr.com,REJECT
 HOST-SUFFIX,xmlwizard.com,REJECT
 HOST-SUFFIX,xpanama.net,REJECT
 HOST-SUFFIX,xy7elite.com,REJECT
@@ -509,15 +519,6 @@ HOST-SUFFIX,zumobi.com,REJECT
 HOST-SUFFIX,zwaar.org,REJECT
 HOST-SUFFIX,zxrtb.com,REJECT
 
-HOST-SUFFIX,8le8le.com,REJECT
-HOST-SUFFIX,jomwihn.cn,REJECT
-HOST-SUFFIX,wuyicom.top,REJECT
-HOST-SUFFIX,anythinktech.com,REJECT
-HOST-SUFFIX,520click.com,REJECT
-HOST-SUFFIX,xlviirdr.com,REJECT
-HOST-SUFFIX,adtongji.xyz,REJECT
-HOST-SUFFIX,ce33m7.com,REJECT
-HOST-SUFFIX,pangle.io,REJECT
 HOST-SUFFIX,ad.daum.net,REJECT
 HOST-SUFFIX,ad.g.daum.net,REJECT
 HOST-SUFFIX,ads.roku.com,REJECT
