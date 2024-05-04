@@ -1,0 +1,37 @@
+# 2024-04-23 13:21:12
+# ChatGPT
+HOST-SUFFIX,chatgpt.com,PROXY
+HOST-SUFFIX,oaistatic.com,PROXY
+HOST-SUFFIX,oaiusercontent.com,PROXY
+HOST-SUFFIX,openai.com,PROXY
+HOST,api.statsig.com,PROXY
+HOST,api-iam.intercom.io,PROXY
+HOST,chatgpt.livekit.cloud,PROXY
+HOST,o33249.ingest.sentry.io,PROXY
+HOST,openaiapi-site.azureedge.net,PROXY
+HOST,sfo3.turn.livekit.cloud,PROXY
+HOST-KEYWORD,openaicom,PROXY
+
+# Copilot
+HOST,api.githubcopilot.com,PROXY
+HOST,copilot-proxy.githubusercontent.com,PROXY
+HOST,copilot.microsoft.com,PROXY
+HOST,sydney.bing.com,PROXY
+HOST,www.bing.com,PROXY
+
+# Gemini
+HOST,bard.google.com,PROXY
+HOST,gemini.google.com,PROXY
+
+# Claude
+HOST-SUFFIX,anthropic.com,PROXY
+HOST-SUFFIX,claude.ai,PROXY
+IP-CIDR,160.79.104.0/23,PROXY
+IP6-CIDR,2607:6bc0::/48,PROXY
+
+# JetBrains AI
+HOST-SUFFIX,grazie.ai,PROXY
+
+# Meta
+HOST,imagine.meta.com,PROXY
+HOST-SUFFIX,meta.ai,PROXY
