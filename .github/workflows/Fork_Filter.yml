@@ -21,19 +21,17 @@ jobs:
       - name: Download files to Ruleset
         run: |
           # Apple
-          curl -L -o QuantumultX-repo/Ruleset/ApplePush.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/ApplePushNotificationService.snippet"
+          curl -L -o QuantumultX-repo/Ruleset/ApplePush.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
           curl -L -o QuantumultX-repo/Ruleset/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
 
           # OpenAI
+          curl -L -o QuantumultX-repo/Ruleset/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
           
-          curl -L -o QuantumultX-repo/Ruleset/ChatGPT_Voice.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/ChatGPT_Voice.list"
-          curl -L -o QuantumultX-repo/Ruleset/OpenAI.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/OpenAI.list"
-          
+          # AI合集 (ChatGPT, Copilot, Gemini, Claude...)
+          curl -L -o QuantumultX-repo/Ruleset/AI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
+
           # 社交媒体
           curl -L -o QuantumultX-repo/Ruleset/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Telegram.list"
-
-          # 微软
-          curl -L -o QuantumultX-repo/Ruleset/Copilot.list  "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
 
           # 流媒体
           curl -L -o QuantumultX-repo/Ruleset/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Emby.list"
@@ -67,6 +65,7 @@ jobs:
           # 神机规则修正
           curl -L -o QuantumultX-repo/Ruleset/Unbreak.list "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list"
 
+          # 神机 ConnersHua
           mkdir -p QuantumultX-repo/Ruleset/ConnersHua
           curl -L -o QuantumultX-repo/Ruleset/ConnersHua/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
           curl -L -o QuantumultX-repo/Ruleset/ConnersHua/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
@@ -81,30 +80,40 @@ jobs:
       - name: Copy Selected Folders
         run: |
           cp -r tmp/rule/QuantumultX/WeChat Ruleset/
-          cp -r tmp/rule/QuantumultX/BiliBili Ruleset/
           cp -r tmp/rule/QuantumultX/Zhihu Ruleset/
+          cp -r tmp/rule/QuantumultX/BiliBili Ruleset/
           cp -r tmp/rule/QuantumultX/Speedtest Ruleset/
 
-          cp -r tmp/rule/QuantumultX/Spotify Ruleset/
           cp -r tmp/rule/QuantumultX/OpenAI Ruleset/
-          cp -r tmp/rule/QuantumultX/Telegram Ruleset/
+
+          cp -r tmp/rule/QuantumultX/Spotify Ruleset/
           cp -r tmp/rule/QuantumultX/TikTok Ruleset/
           cp -r tmp/rule/QuantumultX/Netflix Ruleset/
-          cp -r tmp/rule/QuantumultX/PayPal Ruleset/
+          cp -r tmp/rule/QuantumultX/HBO Ruleset/
+          cp -r tmp/rule/QuantumultX/Disney Ruleset/
+          cp -r tmp/rule/QuantumultX/PrimeVideo Ruleset/
+          cp -r tmp/rule/QuantumultX/Emby Ruleset/
+          cp -r tmp/rule/QuantumultX/GlobalMedia Ruleset/
+
           cp -r tmp/rule/QuantumultX/Cloudflare Ruleset/
+          cp -r tmp/rule/QuantumultX/Oracle Ruleset/
+          cp -r tmp/rule/QuantumultX/PayPal Ruleset/
+
+          cp -r tmp/rule/QuantumultX/Telegram Ruleset/
           cp -r tmp/rule/QuantumultX/Twitter Ruleset/
           cp -r tmp/rule/QuantumultX/Instagram Ruleset/
           cp -r tmp/rule/QuantumultX/Facebook Ruleset/
 
+          cp -r tmp/rule/QuantumultX/Copilot Ruleset/
           cp -r tmp/rule/QuantumultX/GitHub Ruleset/
           cp -r tmp/rule/QuantumultX/OneDrive Ruleset/
           cp -r tmp/rule/QuantumultX/Bing Ruleset/
           cp -r tmp/rule/QuantumultX/Microsoft Ruleset/
 
+          cp -r tmp/rule/QuantumultX/GoogleVoice Ruleset/
+          cp -r tmp/rule/QuantumultX/Gemini Ruleset/
           cp -r tmp/rule/QuantumultX/YouTube Ruleset/
           cp -r tmp/rule/QuantumultX/Google Ruleset/
-
-          cp -r tmp/rule/QuantumultX/Emby Ruleset/
 
           cp -r tmp/rule/QuantumultX/AppleID Ruleset/
           cp -r tmp/rule/QuantumultX/AppStore Ruleset/
@@ -114,7 +123,6 @@ jobs:
           cp -r tmp/rule/QuantumultX/AppleMail Ruleset/
           cp -r tmp/rule/QuantumultX/Apple Ruleset/
 
-          cp -r tmp/rule/QuantumultX/GlobalMedia Ruleset/
         shell: bash
 
       - name: Move ios_rule_script content to QuantumultX-repo/Ruleset
@@ -145,7 +153,7 @@ jobs:
         run: |
           cd QuantumultX-repo/Ruleset/
           for file in *.list; do
-              if [ "$file" != "OpenAI.list" ] && [ "$file" != "ChatGPT_Voice.list" ] && [ "$file" != "Unbreak.list" ] && [ "$file" != "WeChat.list" ] && [ "$file" != "ApplePush.list" ]; then
+              if [ "$file" != "Unbreak.list" ] && [ "$file" != "WeChat.list" ]; then
               # if [ -f "$file" ]; then
               # 修改，& ; 以及大小写
               sed -i 's/, /,/g' "$file"
