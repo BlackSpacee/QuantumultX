@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202405151336
+## ! Version: 202405171426
 ## ! Title: EasyPrivacy
-## ! Last modified: 15 May 2024 13:36 UTC
+## ! Last modified: 17 May 2024 14:26 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -2853,6 +2853,7 @@ DOMAIN-SUFFIX,iabusprivacy.pmc.com,REJECT
 DOMAIN-SUFFIX,icu.getstorybox.com,REJECT
 DOMAIN-SUFFIX,iddu1vvb7sk8-a.akamaihd.net,REJECT
 DOMAIN-SUFFIX,identification.hotmart.com,REJECT
+DOMAIN-SUFFIX,ihi.flowplayer.com,REJECT
 DOMAIN-SUFFIX,imp.pvnsolutions.com,REJECT
 DOMAIN-SUFFIX,impress.vcita.com,REJECT
 DOMAIN-SUFFIX,impression.clickinc.com,REJECT
@@ -3318,6 +3319,7 @@ DOMAIN-SUFFIX,track.td3x.com,REJECT
 DOMAIN-SUFFIX,track.uc.cn,REJECT
 DOMAIN-SUFFIX,track.untd.com,REJECT
 DOMAIN-SUFFIX,track.uppromote.com,REJECT
+DOMAIN-SUFFIX,track.us.org,REJECT
 DOMAIN-SUFFIX,track.venatusmedia.com,REJECT
 DOMAIN-SUFFIX,track.vscash.com,REJECT
 DOMAIN-SUFFIX,track.yfret.com,REJECT
@@ -3699,6 +3701,7 @@ DOMAIN-SUFFIX,trck.spoteffects.net,REJECT
 DOMAIN-SUFFIX,trecker.aklamio.com,REJECT
 DOMAIN-SUFFIX,vtrtl.de,REJECT
 DOMAIN-SUFFIX,webcounter.goweb.de,REJECT
+DOMAIN-SUFFIX,wranalytics.wildrocket.io,REJECT
 DOMAIN-SUFFIX,x.bloggurat.net,REJECT
 DOMAIN-SUFFIX,zs.dhl.de,REJECT
 DOMAIN-SUFFIX,abs.proxistore.com,REJECT
@@ -3839,6 +3842,7 @@ DOMAIN-SUFFIX,statistics.rbi-nl.com,REJECT
 DOMAIN-SUFFIX,trkr.shoppingminds.net,REJECT
 DOMAIN-SUFFIX,dnt-userreport.com,REJECT
 DOMAIN-SUFFIX,tags.op-palvelut.fi,REJECT
+DOMAIN-SUFFIX,analytics.palitra.ge,REJECT
 DOMAIN-SUFFIX,links.boom.ge,REJECT
 DOMAIN-SUFFIX,stats-real-clients.zentech.gr,REJECT
 DOMAIN-SUFFIX,heartbeat.pmd.444.hu,REJECT
@@ -39387,6 +39391,7 @@ DOMAIN-SUFFIX,stats.nhk.or.jp,REJECT
 DOMAIN-SUFFIX,sy.amebame.com,REJECT
 DOMAIN-SUFFIX,sy.ameblo.jp,REJECT
 DOMAIN-SUFFIX,t.syosetu.org,REJECT
+DOMAIN-SUFFIX,temp.twicomi.com,REJECT
 DOMAIN-SUFFIX,track.buyma.com,REJECT
 DOMAIN-SUFFIX,track.prod.smash.pet,REJECT
 DOMAIN-SUFFIX,tracking.ai.rakuten.co.jp,REJECT
@@ -39506,6 +39511,7 @@ DOMAIN-SUFFIX,sync.rambler.ru,REJECT
 DOMAIN-SUFFIX,top-staging.mail.ru,REJECT
 DOMAIN-SUFFIX,xray.mail.ru,REJECT
 DOMAIN-SUFFIX,yast.rutube.ru,REJECT
+DOMAIN-SUFFIX,harvester.cms.markiza.sk,REJECT
 DOMAIN-SUFFIX,go-usertrack-importer.pub.24ur.si,REJECT
 DOMAIN-SUFFIX,tracker.azet.sk,REJECT
 DOMAIN-SUFFIX,analytics.bolavip.com,REJECT
