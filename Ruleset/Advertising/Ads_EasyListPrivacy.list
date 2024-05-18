@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202405171426
+## ! Version: 202405180254
 ## ! Title: EasyPrivacy
-## ! Last modified: 17 May 2024 14:26 UTC
+## ! Last modified: 18 May 2024 02:54 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -743,6 +743,7 @@ DOMAIN-SUFFIX,cherriescare.com,REJECT
 DOMAIN-SUFFIX,cherriescloud.com,REJECT
 DOMAIN-SUFFIX,chesscherry.com,REJECT
 DOMAIN-SUFFIX,chesscolor.com,REJECT
+DOMAIN-SUFFIX,chesscrowd.com,REJECT
 DOMAIN-SUFFIX,chewcoat.com,REJECT
 DOMAIN-SUFFIX,chickensstation.com,REJECT
 DOMAIN-SUFFIX,childlikecook.com,REJECT
@@ -804,6 +805,7 @@ DOMAIN-SUFFIX,conditionchange.com,REJECT
 DOMAIN-SUFFIX,conditioncrush.com,REJECT
 DOMAIN-SUFFIX,confesschairs.com,REJECT
 DOMAIN-SUFFIX,confusedcart.com,REJECT
+DOMAIN-SUFFIX,connectashelf.com,REJECT
 DOMAIN-SUFFIX,consciouschairs.com,REJECT
 DOMAIN-SUFFIX,consciouscheese.com,REJECT
 DOMAIN-SUFFIX,consciousdirt.com,REJECT
@@ -1352,6 +1354,7 @@ DOMAIN-SUFFIX,leaplunchroom.com,REJECT
 DOMAIN-SUFFIX,learnedmarket.com,REJECT
 DOMAIN-SUFFIX,leftliquid.com,REJECT
 DOMAIN-SUFFIX,legalleg.com,REJECT
+DOMAIN-SUFFIX,lemonsandjoy.com,REJECT
 DOMAIN-SUFFIX,lettucecopper.com,REJECT
 DOMAIN-SUFFIX,lettucelimit.com,REJECT
 DOMAIN-SUFFIX,levelbehavior.com,REJECT
@@ -1642,6 +1645,7 @@ DOMAIN-SUFFIX,processplantation.com,REJECT
 DOMAIN-SUFFIX,producecopy.com,REJECT
 DOMAIN-SUFFIX,producepickle.com,REJECT
 DOMAIN-SUFFIX,productivepear.com,REJECT
+DOMAIN-SUFFIX,productsurfer.com,REJECT
 DOMAIN-SUFFIX,profitrumour.com,REJECT
 DOMAIN-SUFFIX,profusesupport.com,REJECT
 DOMAIN-SUFFIX,promiseair.com,REJECT
@@ -1671,6 +1675,7 @@ DOMAIN-SUFFIX,quaintcan.com,REJECT
 DOMAIN-SUFFIX,quaintlake.com,REJECT
 DOMAIN-SUFFIX,quantumlagoon.com,REJECT
 DOMAIN-SUFFIX,quarterbean.com,REJECT
+DOMAIN-SUFFIX,queenskart.com,REJECT
 DOMAIN-SUFFIX,questionableobservation.com,REJECT
 DOMAIN-SUFFIX,quicksandear.com,REJECT
 DOMAIN-SUFFIX,quietknowledge.com,REJECT
@@ -1699,6 +1704,7 @@ DOMAIN-SUFFIX,rangeplayground.com,REJECT
 DOMAIN-SUFFIX,rapidkittens.com,REJECT
 DOMAIN-SUFFIX,raresummer.com,REJECT
 DOMAIN-SUFFIX,raspyteam.com,REJECT
+DOMAIN-SUFFIX,reactjspdf.com,REJECT
 DOMAIN-SUFFIX,readgoldfish.com,REJECT
 DOMAIN-SUFFIX,readingguilt.com,REJECT
 DOMAIN-SUFFIX,readymoon.com,REJECT
@@ -1813,6 +1819,7 @@ DOMAIN-SUFFIX,scarfthought.com,REJECT
 DOMAIN-SUFFIX,scatteredheat.com,REJECT
 DOMAIN-SUFFIX,scatteredquiver.com,REJECT
 DOMAIN-SUFFIX,scatteredstream.com,REJECT
+DOMAIN-SUFFIX,scenicapparel.com,REJECT
 DOMAIN-SUFFIX,scientificshirt.com,REJECT
 DOMAIN-SUFFIX,scientificsneeze.com,REJECT
 DOMAIN-SUFFIX,scintillatingscissors.com,REJECT
@@ -2992,6 +2999,7 @@ DOMAIN-SUFFIX,page-events-ustats.udemy.com,REJECT
 DOMAIN-SUFFIX,pages-stats.rbl.ms,REJECT
 DOMAIN-SUFFIX,pagesense-collect.zoho.com,REJECT
 DOMAIN-SUFFIX,pagesocket.glam.com,REJECT
+DOMAIN-SUFFIX,parallax.askmediagroup.com,REJECT
 DOMAIN-SUFFIX,pbjs-stream.bydata.com,REJECT
 DOMAIN-SUFFIX,pegasus.unifygroup.com,REJECT
 DOMAIN-SUFFIX,perf-events.cloud.unity3d.com,REJECT
@@ -3065,6 +3073,7 @@ DOMAIN-SUFFIX,qubitanalytics.appspot.com,REJECT
 DOMAIN-SUFFIX,query.petametrics.com,REJECT
 DOMAIN-SUFFIX,r.skimresources.com,REJECT
 DOMAIN-SUFFIX,ramp.purch.com,REJECT
+DOMAIN-SUFFIX,rampjs-cdn.system1.com,REJECT
 DOMAIN-SUFFIX,reach-id.orbit.tm-awx.com,REJECT
 DOMAIN-SUFFIX,realm.hearst3pcc.com,REJECT
 DOMAIN-SUFFIX,receive.wmcdp.io,REJECT
@@ -3269,6 +3278,7 @@ DOMAIN-SUFFIX,telemetry.tableausoftware.com,REJECT
 DOMAIN-SUFFIX,telemetry.vtex.com,REJECT
 DOMAIN-SUFFIX,test.takedwn.ws,REJECT
 DOMAIN-SUFFIX,timejs.game.163.com,REJECT
+DOMAIN-SUFFIX,tk.pathmonk.com,REJECT
 DOMAIN-SUFFIX,tl.tradetracker.net,REJECT
 DOMAIN-SUFFIX,tm.tradetracker.net,REJECT
 DOMAIN-SUFFIX,tm.vendemore.com,REJECT
