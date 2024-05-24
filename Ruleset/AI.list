@@ -1,4 +1,4 @@
-# 2024-05-22 22:21:14
+# 2024-05-24 16:42:29
 # ChatGPT
 #AND,((HOST-KEYWORD,chatgpt-async-webps-prod-eastus-),(HOST-KEYWORD,.webpubsub.azure.com))
 HOST,chat.openai.com.cdn.cloudflare.net,PROXY
@@ -25,6 +25,7 @@ HOST,bard.google.com,PROXY
 HOST,gemini.google.com,PROXY
 HOST,generativelanguage.googleapis.com,PROXY
 HOST,ai.google.dev,PROXY
+HOST,aida.googleapis.com,PROXY
 HOST,aistudio.google.com,PROXY
 HOST,alkalimakersuite-pa.clients6.google.com,PROXY
 HOST,makersuite.google.com,PROXY
@@ -37,6 +38,7 @@ IP6-CIDR,2607:6bc0::/48,PROXY
 
 # JetBrains AI
 HOST-SUFFIX,grazie.ai,PROXY
+HOST-SUFFIX,grazie.aws.intellij.net,PROXY
 
 # Meta
 HOST,imagine.meta.com,PROXY
