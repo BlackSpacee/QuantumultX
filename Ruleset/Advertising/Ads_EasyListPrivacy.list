@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202405231431
+## ! Version: 202405261617
 ## ! Title: EasyPrivacy
-## ! Last modified: 23 May 2024 14:31 UTC
+## ! Last modified: 26 May 2024 16:17 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -754,6 +754,7 @@ DOMAIN-SUFFIX,childlikeexample.com,REJECT
 DOMAIN-SUFFIX,childlikeform.com,REJECT
 DOMAIN-SUFFIX,chingovernment.com,REJECT
 DOMAIN-SUFFIX,chinsnakes.com,REJECT
+DOMAIN-SUFFIX,chipperisle.com,REJECT
 DOMAIN-SUFFIX,chivalrouscord.com,REJECT
 DOMAIN-SUFFIX,chubbycreature.com,REJECT
 DOMAIN-SUFFIX,chunkycactus.com,REJECT
@@ -1103,6 +1104,7 @@ DOMAIN-SUFFIX,flimsycircle.com,REJECT
 DOMAIN-SUFFIX,flimsythought.com,REJECT
 DOMAIN-SUFFIX,floodprincipal.com,REJECT
 DOMAIN-SUFFIX,flourishingcollaboration.com,REJECT
+DOMAIN-SUFFIX,flourishingpartnership.com,REJECT
 DOMAIN-SUFFIX,flowersornament.com,REJECT
 DOMAIN-SUFFIX,flowerstreatment.com,REJECT
 DOMAIN-SUFFIX,flowerycreature.com,REJECT
@@ -1231,6 +1233,7 @@ DOMAIN-SUFFIX,handyincrease.com,REJECT
 DOMAIN-SUFFIX,haplesshydrant.com,REJECT
 DOMAIN-SUFFIX,haplessland.com,REJECT
 DOMAIN-SUFFIX,happenhistory.com,REJECT
+DOMAIN-SUFFIX,happysponge.com,REJECT
 DOMAIN-SUFFIX,harborcaption.com,REJECT
 DOMAIN-SUFFIX,harborcub.com,REJECT
 DOMAIN-SUFFIX,hardtofindmilk.com,REJECT
@@ -1523,12 +1526,14 @@ DOMAIN-SUFFIX,observantice.com,REJECT
 DOMAIN-SUFFIX,oldfashionedoffer.com,REJECT
 DOMAIN-SUFFIX,omniscientfeeling.com,REJECT
 DOMAIN-SUFFIX,omniscientspark.com,REJECT
+DOMAIN-SUFFIX,onlywoofs.com,REJECT
 DOMAIN-SUFFIX,opalquill.com,REJECT
 DOMAIN-SUFFIX,operationchicken.com,REJECT
 DOMAIN-SUFFIX,operationnail.com,REJECT
 DOMAIN-SUFFIX,opinionsurprise.com,REJECT
 DOMAIN-SUFFIX,oppositeoperation.com,REJECT
 DOMAIN-SUFFIX,optimallimit.com,REJECT
+DOMAIN-SUFFIX,opulentsylvan.com,REJECT
 DOMAIN-SUFFIX,orangeoperation.com,REJECT
 DOMAIN-SUFFIX,organizationdogs.com,REJECT
 DOMAIN-SUFFIX,orientedargument.com,REJECT
@@ -1858,6 +1863,7 @@ DOMAIN-SUFFIX,selectionship.com,REJECT
 DOMAIN-SUFFIX,selectivesummer.com,REJECT
 DOMAIN-SUFFIX,selfishsea.com,REJECT
 DOMAIN-SUFFIX,selfishsnake.com,REJECT
+DOMAIN-SUFFIX,sendingspire.com,REJECT
 DOMAIN-SUFFIX,sensorsmile.com,REJECT
 DOMAIN-SUFFIX,sentinelp.com,REJECT
 DOMAIN-SUFFIX,separateshow.com,REJECT
@@ -3012,6 +3018,7 @@ DOMAIN-SUFFIX,page-events-ustats.udemy.com,REJECT
 DOMAIN-SUFFIX,pages-stats.rbl.ms,REJECT
 DOMAIN-SUFFIX,pagesense-collect.zoho.com,REJECT
 DOMAIN-SUFFIX,pagesocket.glam.com,REJECT
+DOMAIN-SUFFIX,panorama.wixapps.net,REJECT
 DOMAIN-SUFFIX,parallax.askmediagroup.com,REJECT
 DOMAIN-SUFFIX,pbjs-stream.bydata.com,REJECT
 DOMAIN-SUFFIX,pegasus.unifygroup.com,REJECT
@@ -3390,6 +3397,7 @@ DOMAIN-SUFFIX,tracking.ads.global-fashion-group.com,REJECT
 DOMAIN-SUFFIX,tracking.aegpresents.com,REJECT
 DOMAIN-SUFFIX,tracking.americaneagle.com,REJECT
 DOMAIN-SUFFIX,tracking.audio.thisisdax.com,REJECT
+DOMAIN-SUFFIX,tracking.b-cdn.net,REJECT
 DOMAIN-SUFFIX,tracking.bababam.com,REJECT
 DOMAIN-SUFFIX,tracking.brandmentions.com,REJECT
 DOMAIN-SUFFIX,tracking.buygoods.com,REJECT
@@ -3419,6 +3427,7 @@ DOMAIN-SUFFIX,tracking.musixmatch.com,REJECT
 DOMAIN-SUFFIX,tracking.olx-st.com,REJECT
 DOMAIN-SUFFIX,tracking.pacharge.com,REJECT
 DOMAIN-SUFFIX,tracking.plinga.de,REJECT
+DOMAIN-SUFFIX,tracking.prepr.io,REJECT
 DOMAIN-SUFFIX,tracking.quisma.com,REJECT
 DOMAIN-SUFFIX,tracking.rapidape.com,REJECT
 DOMAIN-SUFFIX,tracking.scenepass.com,REJECT
@@ -4229,6 +4238,7 @@ DOMAIN-SUFFIX,analytics.oyorooms.com,REJECT
 DOMAIN-SUFFIX,analytics.pgncs.notion.so,REJECT
 DOMAIN-SUFFIX,analytics.plex.tv,REJECT
 DOMAIN-SUFFIX,analytics.productreview.com.au,REJECT
+DOMAIN-SUFFIX,analytics.qogita.com,REJECT
 DOMAIN-SUFFIX,analytics.realestate.com.au,REJECT
 DOMAIN-SUFFIX,analytics.send.cm,REJECT
 DOMAIN-SUFFIX,analytics.silktide.com,REJECT
@@ -4238,6 +4248,7 @@ DOMAIN-SUFFIX,analytics.tradedoubler.com,REJECT
 DOMAIN-SUFFIX,analytics.vedantu.com,REJECT
 DOMAIN-SUFFIX,analytics.wavebox.io,REJECT
 DOMAIN-SUFFIX,analytics.yugen.to,REJECT
+DOMAIN-SUFFIX,analyticsapi.qogita.com,REJECT
 DOMAIN-SUFFIX,anon-stats.eff.org,REJECT
 DOMAIN-SUFFIX,api-hotmart-tracking-manager.hotmart.com,REJECT
 DOMAIN-SUFFIX,api-js.mixpanel.com,REJECT
@@ -39438,6 +39449,7 @@ DOMAIN-SUFFIX,kyson.kakao.com,REJECT
 DOMAIN-SUFFIX,l.m.naver.com,REJECT
 DOMAIN-SUFFIX,log.etoday.co.kr,REJECT
 DOMAIN-SUFFIX,log.kinolights.com,REJECT
+DOMAIN-SUFFIX,log.tossinvest.com,REJECT
 DOMAIN-SUFFIX,log.zdnet.co.kr,REJECT
 DOMAIN-SUFFIX,nil.naver.com,REJECT
 DOMAIN-SUFFIX,nlog.naver.com,REJECT
