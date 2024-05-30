@@ -1,6 +1,6 @@
-# 2024-05-24 16:42:29
+# 2024-05-30 15:51:48
 # ChatGPT
-#AND,((HOST-KEYWORD,chatgpt-async-webps-prod-eastus-),(HOST-KEYWORD,.webpubsub.azure.com))
+#AND,((HOST-KEYWORD,chatgpt-async-webps-prod-eastus-),(HOST-SUFFIX,webpubsub.azure.com))
 HOST,chat.openai.com.cdn.cloudflare.net,PROXY
 HOST,o33249.ingest.sentry.io,PROXY
 HOST,openaiapi-site.azureedge.net,PROXY
