@@ -8217,10 +8217,6 @@ URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/search\/(defaultword|hot|recommen
 URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5),REJECT
 URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn,REJECT
 
-# > OpenAI
-DOMAIN,o33249.ingest.sentry.io,REJECT
-DOMAIN,openaicom.imgix.net,REJECT
-
 # > Didi
 URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/,REJECT
 
