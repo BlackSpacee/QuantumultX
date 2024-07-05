@@ -1279,6 +1279,7 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve,REJECT
 # > ZOL
 HOST,apppv.zol.com.cn,REJECT
 HOST,pvnapp.zol.com.cn,REJECT
+404: Not Found,REJECT
   
 # Privacy
 HOST-SUFFIX,adjust.com,REJECT
