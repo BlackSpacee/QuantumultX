@@ -84,6 +84,8 @@ HOST-SUFFIX,gz-data.com,REJECT
 # > GrowingIO
 HOST-SUFFIX,giocdn.com,REJECT
 HOST-SUFFIX,growingio.com,REJECT
+# > Huawei
+HOST,browsercfg-drcn.cloud.dbankcloud.cn // 甚至想 HOST-KEYWORD,drcn.cloud.dbankcloud.cn
 # > MI
 HOST-SUFFIX,tracking.miui.com,REJECT
 # HOST,api.miwifi.com // 影响 Mi Wi-Fi(id859962702)，但建议注意 https://www.v2ex.com/t/746094
